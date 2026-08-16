@@ -133,3 +133,35 @@ nav {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
+.unit-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 30px;
+}
+
+.unit-page h1 {
+    text-align: left;
+    font-size: 52px;
+    margin: 15px 0 20px 0;
+}
+
+.unit-page > p {
+    max-width: 750px;
+    margin: 0 0 50px 0;
+    font-size: 19px;
+}
+
+.unit-page h2 {
+    text-align: left;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.unit-page ul {
+    padding-left: 25px;
+    line-height: 2;
+}
+
+.unit-page li {
+    font-size: 18px;
+}

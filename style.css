@@ -165,3 +165,58 @@ nav {
 .unit-page li {
     font-size: 18px;
 }
+.unit-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 30px;
+}
+
+.unit-page h1 {
+    text-align: left;
+    font-size: 52px;
+    margin: 15px 0 20px 0;
+}
+
+.unit-page > p {
+    max-width: 750px;
+    margin: 0 0 50px 0;
+    font-size: 19px;
+}
+
+.unit-page h2 {
+    text-align: left;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.topic-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.topic-card {
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #1f2937;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.topic-card h3 {
+    margin-top: 0;
+    color: #1e3a5f;
+    font-size: 21px;
+}
+
+.topic-card p {
+    margin: 10px 0 0 0;
+    line-height: 1.5;
+}
+
+.topic-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}

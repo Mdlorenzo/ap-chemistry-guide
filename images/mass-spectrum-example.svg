@@ -1,0 +1,129 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 760 430"
+    role="img"
+    aria-labelledby="graph-title graph-description"
+>
+    <title id="graph-title">
+        Mass spectrum of a hypothetical element
+    </title>
+
+    <desc id="graph-description">
+        The graph has a peak at mass-to-charge ratio 62 with 69 percent
+        abundance and a peak at mass-to-charge ratio 64 with 31 percent
+        abundance.
+    </desc>
+
+    <rect width="760" height="430" fill="#ffffff"/>
+
+    <text
+        x="380"
+        y="32"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="22"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Mass Spectrum of a Hypothetical Element
+    </text>
+
+    <!-- Horizontal and vertical axes -->
+    <line x1="110" y1="320" x2="700" y2="320" stroke="#1f2937" stroke-width="3"/>
+    <line x1="110" y1="320" x2="110" y2="60" stroke="#1f2937" stroke-width="3"/>
+
+    <!-- Horizontal grid lines -->
+    <g stroke="#dbe3ec" stroke-width="1">
+        <line x1="110" y1="268" x2="700" y2="268"/>
+        <line x1="110" y1="216" x2="700" y2="216"/>
+        <line x1="110" y1="164" x2="700" y2="164"/>
+        <line x1="110" y1="112" x2="700" y2="112"/>
+        <line x1="110" y1="60" x2="700" y2="60"/>
+    </g>
+
+    <!-- Vertical-axis labels -->
+    <g
+        font-family="Arial, sans-serif"
+        font-size="14"
+        fill="#1f2937"
+        text-anchor="end"
+    >
+        <text x="98" y="325">0</text>
+        <text x="98" y="273">20</text>
+        <text x="98" y="221">40</text>
+        <text x="98" y="169">60</text>
+        <text x="98" y="117">80</text>
+        <text x="98" y="65">100</text>
+    </g>
+
+    <!-- Horizontal-axis tick marks and labels -->
+    <g
+        font-family="Arial, sans-serif"
+        font-size="14"
+        fill="#1f2937"
+        text-anchor="middle"
+    >
+        <line x1="160" y1="320" x2="160" y2="327" stroke="#1f2937" stroke-width="2"/>
+        <text x="160" y="348">60</text>
+
+        <line x1="245" y1="320" x2="245" y2="327" stroke="#1f2937" stroke-width="2"/>
+        <text x="245" y="348">61</text>
+
+        <line x1="330" y1="320" x2="330" y2="327" stroke="#1f2937" stroke-width="2"/>
+        <text x="330" y="348">62</text>
+
+        <line x1="415" y1="320" x2="415" y2="327" stroke="#1f2937" stroke-width="2"/>
+        <text x="415" y="348">63</text>
+
+        <line x1="500" y1="320" x2="500" y2="327" stroke="#1f2937" stroke-width="2"/>
+        <text x="500" y="348">64</text>
+
+        <line x1="585" y1="320" x2="585" y2="327" stroke="#1f2937" stroke-width="2"/>
+        <text x="585" y="348">65</text>
+
+        <line x1="670" y1="320" x2="670" y2="327" stroke="#1f2937" stroke-width="2"/>
+        <text x="670" y="348">66</text>
+    </g>
+
+    <!-- Isotope peaks -->
+    <line x1="330" y1="320" x2="330" y2="141" stroke="#1e3a5f" stroke-width="12"/>
+    <line x1="500" y1="320" x2="500" y2="239" stroke="#1e3a5f" stroke-width="12"/>
+
+    <!-- Peak labels -->
+    <g
+        font-family="Arial, sans-serif"
+        font-size="16"
+        font-weight="bold"
+        fill="#1e3a5f"
+        text-anchor="middle"
+    >
+        <text x="330" y="128">69%</text>
+        <text x="500" y="226">31%</text>
+    </g>
+
+    <!-- Axis titles -->
+    <text
+        x="405"
+        y="390"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Mass-to-Charge Ratio (m/z)
+    </text>
+
+    <text
+        x="28"
+        y="190"
+        text-anchor="middle"
+        transform="rotate(-90 28 190)"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Relative Abundance (%)
+    </text>
+</svg>

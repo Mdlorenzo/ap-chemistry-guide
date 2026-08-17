@@ -423,3 +423,35 @@ nav {
     margin-top: 20px;
     padding-top: 5px;
 }
+.spectrum-notes {
+    margin: 25px 0;
+    padding-left: 28px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.spectrum-notes li {
+    margin-bottom: 12px;
+}
+
+.mass-spectrum-figure {
+    margin: 35px 0;
+    padding: 20px;
+    background-color: #f8fafc;
+    border: 1px solid #dbe3ec;
+    border-radius: 10px;
+}
+
+.mass-spectrum-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.mass-spectrum-figure figcaption {
+    margin-top: 15px;
+    color: #4b5563;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+}

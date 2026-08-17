@@ -282,41 +282,6 @@ nav {
     font-size: 20px;
 }
 
-@media (max-width: 750px) {
-    .unit-grid,
-    .topic-list {
-        grid-template-columns: 1fr;
-    }
-
-    nav {
-        flex-direction: column;
-        gap: 18px;
-    }
-
-    .nav-links {
-        gap: 16px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .hero {
-        padding: 120px 20px;
-    }
-
-    .hero h1,
-    .unit-page h1 {
-        font-size: 42px;
-    }
-    .video-resource {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .video-button {
-        width: 100%;
-        box-sizing: border-box;
-        text-align: center;
-}
 .fraction {
     display: inline-flex;
     flex-direction: column;
@@ -332,6 +297,7 @@ nav {
 .denominator {
     padding-top: 4px;
 }
+
 .video-resource {
     display: flex;
     justify-content: space-between;
@@ -379,4 +345,42 @@ nav {
 
 .video-button:hover {
     background-color: #162d4a;
+}
+
+@media (max-width: 750px) {
+    .unit-grid,
+    .topic-list {
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .nav-links {
+        gap: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        padding: 120px 20px;
+    }
+
+    .hero h1,
+    .unit-page h1 {
+        font-size: 42px;
+    }
+
+    .video-resource {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .video-button {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
 }

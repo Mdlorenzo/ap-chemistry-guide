@@ -323,3 +323,51 @@ nav {
 .denominator {
     padding-top: 4px;
 }
+.video-resource {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+    padding: 28px;
+    background-color: #eef4fa;
+    border: 1px solid #cbd9e8;
+    border-radius: 10px;
+}
+
+.video-text {
+    flex: 1;
+}
+
+.video-label {
+    color: #1e3a5f;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.video-resource h3 {
+    margin: 8px 0;
+    font-size: 23px;
+    color: #1f2937;
+}
+
+.video-resource p {
+    margin: 0;
+    font-size: 17px;
+}
+
+.video-button {
+    display: inline-block;
+    flex-shrink: 0;
+    padding: 13px 22px;
+    background-color: #1e3a5f;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.video-button:hover {
+    background-color: #162d4a;
+}

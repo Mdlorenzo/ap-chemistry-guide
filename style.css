@@ -384,3 +384,42 @@ nav {
         text-align: center;
     }
 }
+
+.practice-section {
+    margin-top: 50px;
+    padding-top: 15px;
+    border-top: 2px solid #dbe3ec;
+}
+
+.practice-question {
+    margin-top: 25px;
+    padding: 24px;
+    background-color: #f8fafc;
+    border: 1px solid #dbe3ec;
+    border-radius: 8px;
+}
+
+.practice-question h4 {
+    margin: 0 0 12px 0;
+    color: #1e3a5f;
+    font-size: 20px;
+}
+
+.practice-question details {
+    margin-top: 18px;
+}
+
+.practice-question summary {
+    color: #1e3a5f;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.practice-question summary:hover {
+    text-decoration: underline;
+}
+
+.solution {
+    margin-top: 20px;
+    padding-top: 5px;
+}

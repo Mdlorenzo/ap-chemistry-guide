@@ -308,3 +308,18 @@ nav {
         font-size: 42px;
     }
 }
+.fraction {
+    display: inline-flex;
+    flex-direction: column;
+    vertical-align: middle;
+    margin: 0 8px;
+}
+
+.numerator {
+    padding: 0 8px 4px 8px;
+    border-bottom: 2px solid #1f2937;
+}
+
+.denominator {
+    padding-top: 4px;
+}

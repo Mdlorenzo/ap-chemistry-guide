@@ -91,7 +91,7 @@
     <circle cx="175" cy="195" r="30" fill="#1e3a5f"/>
     <circle cx="275" cy="195" r="24" fill="#94a3b8"/>
 
-    <text x="175" y="285" text-anchor="middle"
+    <text x="175" y="340" text-anchor="middle"
           font-family="Arial, sans-serif" font-size="17" fill="#4b5563">
         180°
     </text>
@@ -108,8 +108,8 @@
         Trigonal Planar
     </text>
 
-    <line x1="500" y1="185" x2="500" y2="130"
-          stroke="#1f2937" stroke-width="6"/>
+    <line x1="500" y1="175" x2="500" y2="164"
+      stroke="#1f2937" stroke-width="6"/>
 
     <line x1="475" y1="210" x2="420" y2="255"
           stroke="#1f2937" stroke-width="6"/>
@@ -118,11 +118,11 @@
           stroke="#1f2937" stroke-width="6"/>
 
     <circle cx="500" cy="205" r="30" fill="#1e3a5f"/>
-    <circle cx="500" cy="120" r="24" fill="#94a3b8"/>
+    <circle cx="500" cy="140" r="24" fill="#94a3b8"/>
     <circle cx="400" cy="270" r="24" fill="#94a3b8"/>
     <circle cx="600" cy="270" r="24" fill="#94a3b8"/>
 
-    <text x="500" y="310" text-anchor="middle"
+    <text x="500" y="340" text-anchor="middle"
           font-family="Arial, sans-serif" font-size="17" fill="#4b5563">
         120°
     </text>
@@ -139,8 +139,8 @@
         Tetrahedral
     </text>
 
-    <line x1="825" y1="195" x2="825" y2="130"
-          stroke="#1f2937" stroke-width="6"/>
+    <line x1="825" y1="175" x2="825" y2="164"
+      stroke="#1f2937" stroke-width="6"/>
 
     <line x1="800" y1="210" x2="745" y2="260"
           stroke="#1f2937" stroke-width="6"/>
@@ -154,12 +154,12 @@
     />
 
     <circle cx="825" cy="205" r="30" fill="#1e3a5f"/>
-    <circle cx="825" cy="120" r="24" fill="#94a3b8"/>
+    <circle cx="825" cy="140" r="24" fill="#94a3b8"/>
     <circle cx="725" cy="275" r="24" fill="#94a3b8"/>
     <circle cx="925" cy="275" r="24" fill="#94a3b8"/>
     <circle cx="780" cy="290" r="24" fill="#94a3b8"/>
 
-    <text x="825" y="315" text-anchor="middle"
+    <text x="825" y="340" text-anchor="middle"
           font-family="Arial, sans-serif" font-size="17" fill="#4b5563">
         109.5°
     </text>
@@ -193,7 +193,7 @@
     <circle cx="323" cy="445" r="7" fill="#991b1b"/>
     <circle cx="347" cy="445" r="7" fill="#991b1b"/>
 
-    <text x="335" y="625" text-anchor="middle"
+    <text x="335" y="675" text-anchor="middle"
           font-family="Arial, sans-serif" font-size="17" fill="#4b5563">
         Approximately 107°
     </text>
@@ -225,7 +225,7 @@
     <circle cx="677" cy="440" r="7" fill="#991b1b"/>
     <circle cx="695" cy="450" r="7" fill="#991b1b"/>
 
-    <text x="665" y="625" text-anchor="middle"
+    <text x="665" y="675" text-anchor="middle"
           font-family="Arial, sans-serif" font-size="17" fill="#4b5563">
         Approximately 104.5°
     </text>

@@ -1,0 +1,148 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1000 440"
+    role="img"
+    aria-labelledby="title description"
+>
+    <title id="title">Resonance structures of ozone</title>
+
+    <desc id="description">
+        Two equivalent ozone structures. The double bond appears on the
+        right in the first structure and on the left in the second.
+    </desc>
+
+    <rect width="1000" height="440" fill="#ffffff"/>
+
+    <text
+        x="500" y="40"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="24"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Resonance Structures of O₃
+    </text>
+
+    <!-- Atom labels -->
+    <g
+        font-family="Arial, sans-serif"
+        font-size="50"
+        font-weight="bold"
+        fill="#1e3a5f"
+        text-anchor="middle"
+    >
+        <text x="100" y="235">O</text>
+        <text x="260" y="235">O</text>
+        <text x="420" y="235">O</text>
+
+        <text x="580" y="235">O</text>
+        <text x="740" y="235">O</text>
+        <text x="900" y="235">O</text>
+    </g>
+
+    <!-- First structure: single bond, then double bond -->
+    <line x1="140" y1="218" x2="215" y2="218"
+          stroke="#1f2937" stroke-width="5"/>
+
+    <line x1="305" y1="208" x2="375" y2="208"
+          stroke="#1f2937" stroke-width="5"/>
+
+    <line x1="305" y1="228" x2="375" y2="228"
+          stroke="#1f2937" stroke-width="5"/>
+
+    <!-- Second structure: double bond, then single bond -->
+    <line x1="625" y1="208" x2="695" y2="208"
+          stroke="#1f2937" stroke-width="5"/>
+
+    <line x1="625" y1="228" x2="695" y2="228"
+          stroke="#1f2937" stroke-width="5"/>
+
+    <line x1="785" y1="218" x2="855" y2="218"
+          stroke="#1f2937" stroke-width="5"/>
+
+    <!-- Resonance arrow -->
+    <text
+        x="500" y="230"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="52"
+        fill="#991b1b"
+    >
+        ↔
+    </text>
+
+    <!-- Formal charges -->
+    <g
+        font-family="Arial, sans-serif"
+        font-size="21"
+        font-weight="bold"
+        text-anchor="middle"
+    >
+        <text x="100" y="155" fill="#991b1b">−1</text>
+        <text x="260" y="155" fill="#1e3a5f">+1</text>
+
+        <text x="740" y="155" fill="#1e3a5f">+1</text>
+        <text x="900" y="155" fill="#991b1b">−1</text>
+    </g>
+
+    <!-- Lone pairs: first structure -->
+    <g fill="#991b1b">
+        <!-- Left terminal oxygen: three lone pairs -->
+        <circle cx="88" cy="174" r="6"/>
+        <circle cx="112" cy="174" r="6"/>
+        <circle cx="58" cy="210" r="6"/>
+        <circle cx="58" cy="234" r="6"/>
+        <circle cx="88" cy="272" r="6"/>
+        <circle cx="112" cy="272" r="6"/>
+
+        <!-- Central oxygen: one lone pair -->
+        <circle cx="248" cy="174" r="6"/>
+        <circle cx="272" cy="174" r="6"/>
+
+        <!-- Right terminal oxygen: two lone pairs -->
+        <circle cx="408" cy="174" r="6"/>
+        <circle cx="432" cy="174" r="6"/>
+        <circle cx="408" cy="272" r="6"/>
+        <circle cx="432" cy="272" r="6"/>
+
+        <!-- Left terminal oxygen of second form: two lone pairs -->
+        <circle cx="568" cy="174" r="6"/>
+        <circle cx="592" cy="174" r="6"/>
+        <circle cx="568" cy="272" r="6"/>
+        <circle cx="592" cy="272" r="6"/>
+
+        <!-- Central oxygen: one lone pair -->
+        <circle cx="728" cy="174" r="6"/>
+        <circle cx="752" cy="174" r="6"/>
+
+        <!-- Right terminal oxygen: three lone pairs -->
+        <circle cx="888" cy="174" r="6"/>
+        <circle cx="912" cy="174" r="6"/>
+        <circle cx="942" cy="210" r="6"/>
+        <circle cx="942" cy="234" r="6"/>
+        <circle cx="888" cy="272" r="6"/>
+        <circle cx="912" cy="272" r="6"/>
+    </g>
+
+    <text
+        x="500" y="355"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        fill="#4b5563"
+    >
+        Same atom arrangement, different electron placement
+    </text>
+
+    <text
+        x="500" y="395"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        font-weight="bold"
+        fill="#1e3a5f"
+    >
+        The actual molecule is a resonance hybrid
+    </text>
+</svg>

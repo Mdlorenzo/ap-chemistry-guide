@@ -1,0 +1,226 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1000 780"
+    role="img"
+    aria-labelledby="title description"
+>
+    <title id="title">Comparison of intermolecular forces</title>
+
+    <desc id="description">
+        Four particle diagrams show London dispersion forces,
+        dipole-dipole attractions, hydrogen bonding, and ion-dipole
+        attractions.
+    </desc>
+
+    <rect width="1000" height="780" fill="#ffffff"/>
+
+    <text
+        x="500" y="38"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="26"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Intermolecular Forces
+    </text>
+
+    <!-- Panel backgrounds -->
+    <g fill="#f8fafc" stroke="#cbd9e8" stroke-width="2">
+        <rect x="25" y="65" width="460" height="325" rx="12"/>
+        <rect x="515" y="65" width="460" height="325" rx="12"/>
+        <rect x="25" y="420" width="460" height="325" rx="12"/>
+        <rect x="515" y="420" width="460" height="325" rx="12"/>
+    </g>
+
+    <!-- Panel titles -->
+    <g
+        font-family="Arial, sans-serif"
+        font-size="21"
+        font-weight="bold"
+        fill="#1e3a5f"
+        text-anchor="middle"
+    >
+        <text x="255" y="105">London Dispersion</text>
+        <text x="745" y="105">Dipole–Dipole</text>
+        <text x="255" y="460">Hydrogen Bonding</text>
+        <text x="745" y="460">Ion–Dipole</text>
+    </g>
+
+    <!-- London dispersion particles -->
+    <ellipse
+        cx="160" cy="215" rx="90" ry="55"
+        fill="#dbeafe" stroke="#1e3a5f" stroke-width="3"
+    />
+
+    <ellipse
+        cx="350" cy="215" rx="90" ry="55"
+        fill="#dbeafe" stroke="#1e3a5f" stroke-width="3"
+    />
+
+    <text x="105" y="225" text-anchor="middle"
+          font-family="Arial, sans-serif" font-size="19"
+          font-weight="bold" fill="#991b1b">δ+</text>
+
+    <text x="215" y="225" text-anchor="middle"
+          font-family="Arial, sans-serif" font-size="19"
+          font-weight="bold" fill="#1e3a5f">δ−</text>
+
+    <text x="295" y="225" text-anchor="middle"
+          font-family="Arial, sans-serif" font-size="19"
+          font-weight="bold" fill="#991b1b">δ+</text>
+
+    <text x="405" y="225" text-anchor="middle"
+          font-family="Arial, sans-serif" font-size="19"
+          font-weight="bold" fill="#1e3a5f">δ−</text>
+
+    <line
+        x1="225" y1="215" x2="285" y2="215"
+        stroke="#991b1b" stroke-width="4"
+        stroke-dasharray="8 7"
+    />
+
+    <text
+        x="255" y="315"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#4b5563"
+    >
+        Temporary and induced dipoles
+    </text>
+
+    <!-- Dipole-dipole particles -->
+    <rect
+        x="560" y="170" width="150" height="90" rx="45"
+        fill="#fee2e2" stroke="#991b1b" stroke-width="3"
+    />
+
+    <rect
+        x="780" y="170" width="150" height="90" rx="45"
+        fill="#fee2e2" stroke="#991b1b" stroke-width="3"
+    />
+
+    <text x="590" y="223" text-anchor="middle"
+          font-family="Arial, sans-serif" font-size="19"
+          font-weight="bold" fill="#1e3a5f">δ−</text>
+
+    <text x="680" y="223" text-anchor="middle"
+          font-family="Arial, sans-serif" font-size="19"
+          font-weight="bold" fill="#991b1b">δ+</text>
+
+    <text x="810" y="223" text-anchor="middle"
+          font-family="Arial, sans-serif" font-size="19"
+          font-weight="bold" fill="#1e3a5f">δ−</text>
+
+    <text x="900" y="223" text-anchor="middle"
+          font-family="Arial, sans-serif" font-size="19"
+          font-weight="bold" fill="#991b1b">δ+</text>
+
+    <line
+        x1="710" y1="215" x2="780" y2="215"
+        stroke="#991b1b" stroke-width="4"
+        stroke-dasharray="8 7"
+    />
+
+    <text
+        x="745" y="315"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#4b5563"
+    >
+        Attraction between permanent dipoles
+    </text>
+
+    <!-- Hydrogen bonding -->
+    <text x="100" y="585" text-anchor="middle"
+          font-family="Arial, sans-serif" font-size="46"
+          font-weight="bold" fill="#991b1b">O</text>
+
+    <text x="195" y="585" text-anchor="middle"
+          font-family="Arial, sans-serif" font-size="42"
+          font-weight="bold" fill="#1e3a5f">H</text>
+
+    <text x="315" y="585" text-anchor="middle"
+          font-family="Arial, sans-serif" font-size="46"
+          font-weight="bold" fill="#991b1b">O</text>
+
+    <text x="410" y="585" text-anchor="middle"
+          font-family="Arial, sans-serif" font-size="42"
+          font-weight="bold" fill="#1e3a5f">H</text>
+
+    <line x1="135" y1="565" x2="165" y2="565"
+          stroke="#1f2937" stroke-width="6"/>
+
+    <line x1="350" y1="565" x2="380" y2="565"
+          stroke="#1f2937" stroke-width="6"/>
+
+    <line
+        x1="220" y1="565" x2="280" y2="565"
+        stroke="#991b1b" stroke-width="4"
+        stroke-dasharray="8 7"
+    />
+
+    <text
+        x="250" y="655"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#4b5563"
+    >
+        H bonded to O attracted to nearby O
+    </text>
+
+    <!-- Ion-dipole -->
+    <circle
+        cx="650" cy="580" r="50"
+        fill="#dbeafe" stroke="#1e3a5f" stroke-width="3"
+    />
+
+    <text
+        x="650" y="590"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="27"
+        font-weight="bold"
+        fill="#1e3a5f"
+    >
+        Na+
+    </text>
+
+    <!-- Water molecule to right -->
+    <text x="810" y="585" text-anchor="middle"
+          font-family="Arial, sans-serif" font-size="46"
+          font-weight="bold" fill="#991b1b">O</text>
+
+    <text x="900" y="530" text-anchor="middle"
+          font-family="Arial, sans-serif" font-size="37"
+          font-weight="bold" fill="#1e3a5f">H</text>
+
+    <text x="900" y="640" text-anchor="middle"
+          font-family="Arial, sans-serif" font-size="37"
+          font-weight="bold" fill="#1e3a5f">H</text>
+
+    <line x1="845" y1="560" x2="875" y2="535"
+          stroke="#1f2937" stroke-width="5"/>
+
+    <line x1="845" y1="600" x2="875" y2="625"
+          stroke="#1f2937" stroke-width="5"/>
+
+    <line
+        x1="705" y1="580" x2="770" y2="580"
+        stroke="#991b1b" stroke-width="4"
+        stroke-dasharray="8 7"
+    />
+
+    <text
+        x="745" y="690"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#4b5563"
+    >
+        Cation attracted to the oxygen end of water
+    </text>
+</svg>

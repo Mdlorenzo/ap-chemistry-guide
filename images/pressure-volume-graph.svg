@@ -1,0 +1,157 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 800 520"
+    role="img"
+    aria-labelledby="title description"
+>
+    <title id="title">Pressure and volume relationship</title>
+
+    <desc id="description">
+        A downward-curving graph shows that gas pressure decreases as
+        volume increases at constant temperature and number of moles.
+    </desc>
+
+    <defs>
+        <marker
+            id="axis-arrow"
+            markerWidth="10"
+            markerHeight="10"
+            refX="8"
+            refY="3"
+            orient="auto"
+        >
+            <path d="M0,0 L0,6 L9,3 z" fill="#1f2937"/>
+        </marker>
+    </defs>
+
+    <rect width="800" height="520" fill="#ffffff"/>
+
+    <text
+        x="400" y="38"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="25"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Pressure–Volume Relationship
+    </text>
+
+    <text
+        x="400" y="68"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        fill="#4b5563"
+    >
+        Constant temperature and amount of gas
+    </text>
+
+    <!-- Grid -->
+    <g stroke="#dbe3ec" stroke-width="1">
+        <line x1="120" y1="130" x2="720" y2="130"/>
+        <line x1="120" y1="200" x2="720" y2="200"/>
+        <line x1="120" y1="270" x2="720" y2="270"/>
+        <line x1="120" y1="340" x2="720" y2="340"/>
+        <line x1="120" y1="410" x2="720" y2="410"/>
+
+        <line x1="220" y1="100" x2="220" y2="430"/>
+        <line x1="320" y1="100" x2="320" y2="430"/>
+        <line x1="420" y1="100" x2="420" y2="430"/>
+        <line x1="520" y1="100" x2="520" y2="430"/>
+        <line x1="620" y1="100" x2="620" y2="430"/>
+        <line x1="720" y1="100" x2="720" y2="430"/>
+    </g>
+
+    <!-- Axes -->
+    <line
+        x1="120" y1="430" x2="745" y2="430"
+        stroke="#1f2937" stroke-width="3"
+        marker-end="url(#axis-arrow)"
+    />
+
+    <line
+        x1="120" y1="430" x2="120" y2="85"
+        stroke="#1f2937" stroke-width="3"
+        marker-end="url(#axis-arrow)"
+    />
+
+    <!-- Inverse curve -->
+    <path
+        d="M155 115
+           C175 180, 210 255, 265 310
+           C335 365, 450 395, 700 415"
+        fill="none"
+        stroke="#1e3a5f"
+        stroke-width="6"
+        stroke-linecap="round"
+    />
+
+    <!-- Example points -->
+    <circle cx="210" cy="250" r="7" fill="#991b1b"/>
+    <circle cx="450" cy="395" r="7" fill="#991b1b"/>
+
+    <text
+        x="235" y="235"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        font-weight="bold"
+        fill="#991b1b"
+    >
+        Smaller volume,
+    </text>
+
+    <text
+        x="235" y="255"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        font-weight="bold"
+        fill="#991b1b"
+    >
+        higher pressure
+    </text>
+
+    <text
+        x="480" y="370"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        font-weight="bold"
+        fill="#991b1b"
+    >
+        Larger volume,
+    </text>
+
+    <text
+        x="480" y="390"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        font-weight="bold"
+        fill="#991b1b"
+    >
+        lower pressure
+    </text>
+
+    <!-- Axis labels -->
+    <text
+        x="425" y="490"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="19"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Volume
+    </text>
+
+    <text
+        x="42" y="260"
+        text-anchor="middle"
+        transform="rotate(-90 42 260)"
+        font-family="Arial, sans-serif"
+        font-size="19"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Pressure
+    </text>
+</svg>

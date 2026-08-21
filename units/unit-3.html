@@ -1940,6 +1940,328 @@
         </table>
     </div>
 
+            <h3>Absorbance and Transmittance</h3>
+
+<p>
+    When light passes through a sample, some radiation may be absorbed
+    while the remainder is transmitted through the sample.
+</p>
+
+<ul class="spectrum-notes">
+    <li>
+        <strong>Absorbance</strong> measures how much radiation is absorbed
+        by the sample.
+    </li>
+
+    <li>
+        <strong>Transmittance</strong> describes how much radiation passes
+        through the sample.
+    </li>
+
+    <li>
+        A sample with greater absorbance generally has lower transmittance
+        at the same wavelength.
+    </li>
+</ul>
+
+<h3>The Beer–Lambert Relationship</h3>
+
+<p>
+    For an appropriate range of concentrations, absorbance is directly
+    proportional to the concentration of the absorbing species and the
+    distance the light travels through the sample.
+</p>
+
+<div class="equation">
+    A = εbc
+</div>
+
+<div class="table-container">
+    <table class="particle-table">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Meaning</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td>Absorbance</td>
+            </tr>
+
+            <tr>
+                <td>ε</td>
+                <td>Molar absorptivity</td>
+            </tr>
+
+            <tr>
+                <td>b</td>
+                <td>Path length through the sample</td>
+            </tr>
+
+            <tr>
+                <td>c</td>
+                <td>Concentration of the absorbing species</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="key-concept">
+    When molar absorptivity and path length remain constant, greater
+    concentration produces greater absorbance.
+</div>
+
+<h3>Calibration Curves</h3>
+
+<p>
+    A calibration curve is created by measuring the absorbance of several
+    solutions with known concentrations. A best-fit line can then be used
+    to determine the concentration of an unknown sample from its measured
+    absorbance.
+</p>
+
+<figure class="chemistry-figure">
+
+    <img
+        src="../images/beer-lambert-calibration.svg"
+        alt="Linear calibration graph showing absorbance increasing with concentration"
+    >
+
+    <figcaption>
+        The linear relationship between absorbance and concentration can
+        be used to determine an unknown concentration.
+    </figcaption>
+
+</figure>
+
+<div class="example">
+
+    <h4>Example: Finding an Unknown Concentration</h4>
+
+    <p>
+        A calibration line is described by the equation:
+    </p>
+
+    <div class="equation">
+        Absorbance = (2.50 M<sup>−1</sup>)(concentration)
+    </div>
+
+    <p>
+        An unknown solution has an absorbance of 0.600. Calculate its
+        concentration.
+    </p>
+
+    <div class="equation">
+        Concentration =
+        
+        <span class="fraction">
+            <span class="numerator">0.600</span>
+            <span class="denominator">2.50 M<sup>−1</sup></span>
+        </span>
+        
+        = 0.240 M
+    </div>
+
+</div>
+
+<div class="practice-section">
+
+    <h3>Photons and Spectroscopy Practice</h3>
+
+    <p>
+        Try each question before opening its solution.
+    </p>
+
+    <div class="practice-question">
+
+        <h4>Question 1: Comparing Photon Energy</h4>
+
+        <p>
+            Photon A has a shorter wavelength than Photon B. Which photon
+            has the greater frequency and energy?
+        </p>
+
+        <details>
+            <summary>Show solution</summary>
+
+            <div class="solution">
+                <p>
+                    <strong>Photon A</strong> has the greater frequency
+                    because wavelength and frequency are inversely related.
+                </p>
+
+                <p>
+                    Photon A also has greater energy because photon energy
+                    is directly proportional to frequency.
+                </p>
+            </div>
+        </details>
+
+    </div>
+
+    <div class="practice-question">
+
+        <h4>Question 2: Calculating Frequency</h4>
+
+        <p>
+            Calculate the frequency of radiation with a wavelength of
+            600 nm. Use c = 2.998 × 10<sup>8</sup> m/s.
+        </p>
+
+        <details>
+            <summary>Show solution</summary>
+
+            <div class="solution">
+
+                <p>Convert the wavelength to meters:</p>
+
+                <div class="equation">
+                    600 nm = 6.00 × 10<sup>−7</sup> m
+                </div>
+
+                <div class="equation">
+                    ν =
+                    
+                    <span class="fraction">
+                        <span class="numerator">
+                            2.998 × 10<sup>8</sup> m/s
+                        </span>
+
+                        <span class="denominator">
+                            6.00 × 10<sup>−7</sup> m
+                        </span>
+                    </span>
+                </div>
+
+                <div class="equation">
+                    ν = 5.00 × 10<sup>14</sup> Hz
+                </div>
+
+            </div>
+        </details>
+
+    </div>
+
+    <div class="practice-question">
+
+        <h4>Question 3: Calibration Line</h4>
+
+        <p>
+            A calibration line has a slope of 2.50 M<sup>−1</sup>. An
+            unknown solution has an absorbance of 0.625. Calculate its
+            concentration.
+        </p>
+
+        <details>
+            <summary>Show solution</summary>
+
+            <div class="solution">
+
+                <div class="equation">
+                    Concentration =
+                    
+                    <span class="fraction">
+                        <span class="numerator">0.625</span>
+                        <span class="denominator">
+                            2.50 M<sup>−1</sup>
+                        </span>
+                    </span>
+                    
+                    = 0.250 M
+                </div>
+
+            </div>
+        </details>
+
+    </div>
+
+    <div class="practice-question">
+
+        <h4>Question 4: Comparing Solutions</h4>
+
+        <p>
+            Two solutions contain the same absorbing substance and are
+            measured at the same wavelength using identical containers.
+            Solution X has twice the concentration of Solution Y. How
+            should their absorbances compare within the linear range?
+        </p>
+
+        <details>
+            <summary>Show solution</summary>
+
+            <div class="solution">
+                <p>
+                    Solution X should have approximately
+                    <strong>twice the absorbance</strong> of Solution Y.
+                </p>
+
+                <p>
+                    Molar absorptivity and path length are unchanged, so
+                    absorbance is directly proportional to concentration.
+                </p>
+            </div>
+        </details>
+
+    </div>
+
+    <div class="practice-question">
+
+        <h4>Question 5: Photon Absorption</h4>
+
+        <p>
+            Why might a molecule absorb photons of one energy but not
+            photons of a slightly different energy?
+        </p>
+
+        <details>
+            <summary>Show solution</summary>
+
+            <div class="solution">
+                <p>
+                    The molecule can absorb a photon when the photon’s
+                    energy matches an allowed difference between the
+                    molecule’s energy states.
+                </p>
+
+                <p>
+                    A photon with a different energy may not correspond
+                    to an allowed transition and therefore may not be
+                    absorbed.
+                </p>
+            </div>
+        </details>
+
+    </div>
+
+</div>
+
+<div class="video-resource">
+
+    <div class="video-text">
+        <span class="video-label">VIDEO EXPLANATION</span>
+
+        <h3>Watch: Photons and Spectroscopy</h3>
+
+        <p>
+            Watch an explanation of wavelength, frequency, photon energy,
+            spectroscopy, and calibration curves.
+        </p>
+    </div>
+
+    <a
+        href="#"
+        class="video-button"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        Watch on TikTok →
+    </a>
+
+</div>
+
 </section>
 
     </main>

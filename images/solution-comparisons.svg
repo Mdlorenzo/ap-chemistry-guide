@@ -1,0 +1,145 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1000 760"
+    role="img"
+    aria-labelledby="title description"
+>
+    <title id="title">Solution concentration and saturation</title>
+
+    <desc id="description">
+        Four particle diagrams compare a dilute solution, concentrated
+        solution, unsaturated solution, and saturated solution with
+        undissolved solute.
+    </desc>
+
+    <rect width="1000" height="760" fill="#ffffff"/>
+
+    <text
+        x="500" y="38"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="26"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Comparing Solutions
+    </text>
+
+    <!-- Panels -->
+    <g fill="#f8fafc" stroke="#cbd9e8" stroke-width="2">
+        <rect x="25" y="65" width="460" height="310" rx="12"/>
+        <rect x="515" y="65" width="460" height="310" rx="12"/>
+        <rect x="25" y="410" width="460" height="310" rx="12"/>
+        <rect x="515" y="410" width="460" height="310" rx="12"/>
+    </g>
+
+    <!-- Titles -->
+    <g
+        font-family="Arial, sans-serif"
+        font-size="21"
+        font-weight="bold"
+        fill="#1e3a5f"
+        text-anchor="middle"
+    >
+        <text x="255" y="103">Dilute</text>
+        <text x="745" y="103">Concentrated</text>
+        <text x="255" y="448">Unsaturated</text>
+        <text x="745" y="448">Saturated</text>
+    </g>
+
+    <!-- Solution containers -->
+    <g fill="#dbeafe" fill-opacity="0.55"
+       stroke="#1e3a5f" stroke-width="3">
+        <rect x="95" y="130" width="320" height="175" rx="5"/>
+        <rect x="585" y="130" width="320" height="175" rx="5"/>
+        <rect x="95" y="475" width="320" height="175" rx="5"/>
+        <rect x="585" y="475" width="320" height="175" rx="5"/>
+    </g>
+
+    <!-- Dilute solute particles -->
+    <g fill="#991b1b">
+        <circle cx="145" cy="175" r="11"/>
+        <circle cx="265" cy="230" r="11"/>
+        <circle cx="370" cy="180" r="11"/>
+        <circle cx="180" cy="275" r="11"/>
+    </g>
+
+    <!-- Concentrated solute particles -->
+    <g fill="#991b1b">
+        <circle cx="625" cy="165" r="11"/>
+        <circle cx="680" cy="205" r="11"/>
+        <circle cx="735" cy="165" r="11"/>
+        <circle cx="790" cy="215" r="11"/>
+        <circle cx="850" cy="165" r="11"/>
+        <circle cx="640" cy="270" r="11"/>
+        <circle cx="705" cy="255" r="11"/>
+        <circle cx="765" cy="275" r="11"/>
+        <circle cx="830" cy="260" r="11"/>
+        <circle cx="880" cy="225" r="11"/>
+        <circle cx="600" cy="225" r="11"/>
+        <circle cx="860" cy="290" r="11"/>
+    </g>
+
+    <!-- Unsaturated dissolved particles -->
+    <g fill="#991b1b">
+        <circle cx="135" cy="520" r="11"/>
+        <circle cx="200" cy="575" r="11"/>
+        <circle cx="275" cy="525" r="11"/>
+        <circle cx="350" cy="585" r="11"/>
+        <circle cx="385" cy="525" r="11"/>
+        <circle cx="145" cy="620" r="11"/>
+    </g>
+
+    <!-- Saturated dissolved particles -->
+    <g fill="#991b1b">
+        <circle cx="625" cy="515" r="11"/>
+        <circle cx="680" cy="555" r="11"/>
+        <circle cx="735" cy="515" r="11"/>
+        <circle cx="790" cy="565" r="11"/>
+        <circle cx="850" cy="515" r="11"/>
+        <circle cx="640" cy="610" r="11"/>
+        <circle cx="705" cy="595" r="11"/>
+        <circle cx="765" cy="620" r="11"/>
+        <circle cx="830" cy="600" r="11"/>
+        <circle cx="880" cy="555" r="11"/>
+        <circle cx="605" cy="565" r="11"/>
+        <circle cx="860" cy="640" r="11"/>
+    </g>
+
+    <!-- Undissolved solute at bottom -->
+    <g fill="#7f1d1d" stroke="#450a0a" stroke-width="1">
+        <circle cx="650" cy="665" r="13"/>
+        <circle cx="680" cy="670" r="13"/>
+        <circle cx="710" cy="665" r="13"/>
+        <circle cx="740" cy="670" r="13"/>
+        <circle cx="770" cy="665" r="13"/>
+        <circle cx="800" cy="670" r="13"/>
+        <circle cx="830" cy="665" r="13"/>
+        <circle cx="860" cy="670" r="13"/>
+    </g>
+
+    <!-- Labels -->
+    <g
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#4b5563"
+        text-anchor="middle"
+    >
+        <text x="255" y="342">Relatively few dissolved particles</text>
+        <text x="745" y="342">Relatively many dissolved particles</text>
+        <text x="255" y="690">Additional solute can dissolve</text>
+        <text x="745" y="705">Undissolved solute remains</text>
+    </g>
+
+    <!-- Legend -->
+    <circle cx="420" cy="742" r="9" fill="#991b1b"/>
+
+    <text
+        x="440" y="748"
+        font-family="Arial, sans-serif"
+        font-size="15"
+        fill="#1f2937"
+    >
+        Solute particle
+    </text>
+</svg>

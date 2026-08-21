@@ -1,6 +1,6 @@
 <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 1000 800"
+    viewBox="0 0 1000 730"
     role="img"
     aria-labelledby="title description"
 >
@@ -11,7 +11,7 @@
         trigonal pyramidal, and bent molecular geometries.
     </desc>
 
-    <rect width="1000" height="800" fill="#ffffff"/>
+    <rect width="1000" height="730" fill="#ffffff"/>
 
     <text
         x="500" y="40"
@@ -24,15 +24,50 @@
         Common Molecular Geometries
     </text>
 
-    <!-- Panel backgrounds -->
-    <g fill="#f8fafc" stroke="#cbd9e8" stroke-width="2">
-        <rect x="25" y="70" width="300" height="260" rx="12"/>
-        <rect x="350" y="70" width="300" height="260" rx="12"/>
-        <rect x="675" y="70" width="300" height="260" rx="12"/>
+    <!-- Larger panel backgrounds -->
+<g fill="#f8fafc" stroke="#cbd9e8" stroke-width="2">
 
-        <rect x="185" y="365" width="300" height="270" rx="12"/>
-        <rect x="515" y="365" width="300" height="270" rx="12"/>
-    </g>
+    <rect
+        x="20"
+        y="70"
+        width="310"
+        height="300"
+        rx="12"
+    />
+
+    <rect
+        x="345"
+        y="70"
+        width="310"
+        height="300"
+        rx="12"
+    />
+
+    <rect
+        x="670"
+        y="70"
+        width="310"
+        height="300"
+        rx="12"
+    />
+
+    <rect
+        x="165"
+        y="380"
+        width="340"
+        height="320"
+        rx="12"
+    />
+
+    <rect
+        x="495"
+        y="380"
+        width="340"
+        height="320"
+        rx="12"
+    />
+
+</g>
 
     <!-- Linear -->
     <text

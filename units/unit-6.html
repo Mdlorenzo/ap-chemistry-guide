@@ -1653,9 +1653,448 @@
     <h2>Enthalpy Changes</h2>
 
     <p>
-        This lesson will explain exothermic and endothermic processes,
-        bond enthalpy, standard enthalpy of formation, and Hess’s law.
+        Enthalpy, represented by H, describes the energy of a system
+        under constant-pressure conditions. Chemical reactions are
+        commonly analyzed using the enthalpy change, ΔH.
     </p>
+
+    <div class="equation">
+        ΔH = H<sub>products</sub> − H<sub>reactants</sub>
+    </div>
+
+
+    <h3>Exothermic and Endothermic Reactions</h3>
+
+    <div class="table-container">
+
+        <table class="particle-table">
+
+            <thead>
+                <tr>
+                    <th>Reaction Type</th>
+                    <th>Energy Transfer</th>
+                    <th>Sign of ΔH</th>
+                    <th>Relative Energy</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Exothermic</td>
+                    <td>Energy leaves the system</td>
+                    <td>Negative</td>
+                    <td>Products are lower than reactants</td>
+                </tr>
+
+                <tr>
+                    <td>Endothermic</td>
+                    <td>Energy enters the system</td>
+                    <td>Positive</td>
+                    <td>Products are higher than reactants</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <figure class="chemistry-figure">
+
+        <img
+            src="../images/enthalpy-diagrams.svg"
+            alt="Energy diagrams comparing exothermic and endothermic reactions"
+        >
+
+        <figcaption>
+            In an exothermic reaction, products are lower in energy
+            than reactants. In an endothermic reaction, products are
+            higher in energy than reactants.
+        </figcaption>
+
+    </figure>
+
+    <div class="key-concept">
+        ΔH describes the difference between the initial and final
+        energy levels. It does not depend on the pathway taken between
+        the reactants and products.
+    </div>
+
+
+    <h3>Enthalpy Is a State Function</h3>
+
+    <p>
+        A state function depends only on the initial and final states,
+        not on the individual steps used to reach the final state.
+    </p>
+
+    <p>
+        Therefore, the total enthalpy change for a reaction is the same
+        whether the reaction occurs in one step or through several
+        intermediate steps.
+    </p>
+
+    <div class="key-concept">
+        Because enthalpy is a state function, enthalpy changes can be
+        added together. This principle is the basis of Hess’s law.
+    </div>
+
+
+    <h3>Bond Enthalpy</h3>
+
+    <p>
+        Bond enthalpy is the energy required to break one mole of a
+        particular type of bond in the gas phase.
+    </p>
+
+    <div class="key-concept">
+        Breaking bonds requires energy.
+        <br><br>
+
+        Forming bonds releases energy.
+    </div>
+
+    <p>
+        An approximate reaction enthalpy can be calculated by comparing
+        the energy required to break reactant bonds with the energy
+        released when product bonds form.
+    </p>
+
+    <div class="equation">
+        ΔH<sub>reaction</sub>
+        ≈
+        Energy of bonds broken
+        −
+        Energy of bonds formed
+    </div>
+
+    <div class="example">
+
+        <h4>Example: Calculating ΔH from Bond Enthalpies</h4>
+
+        <div class="equation">
+            H<sub>2</sub>(g) + Cl<sub>2</sub>(g)
+            → 2HCl(g)
+        </div>
+
+        <p>Use the following average bond enthalpies:</p>
+
+        <ul>
+            <li>H—H: 436 kJ/mol</li>
+            <li>Cl—Cl: 243 kJ/mol</li>
+            <li>H—Cl: 431 kJ/mol</li>
+        </ul>
+
+        <p>
+            One H—H bond and one Cl—Cl bond must be broken.
+        </p>
+
+        <div class="equation">
+            Energy absorbed
+            = 436 kJ/mol + 243 kJ/mol
+            = 679 kJ/mol
+        </div>
+
+        <p>Two H—Cl bonds are formed.</p>
+
+        <div class="equation">
+            Energy released
+            = 2(431 kJ/mol)
+            = 862 kJ/mol
+        </div>
+
+        <div class="equation">
+            ΔH = 679 kJ/mol − 862 kJ/mol
+        </div>
+
+        <div class="equation">
+            ΔH = −183 kJ/mol
+        </div>
+
+        <p>
+            The negative result indicates that the reaction is
+            <strong>exothermic</strong>.
+        </p>
+
+    </div>
+
+    <div class="key-concept">
+        Bond enthalpies are average values obtained from many
+        substances, so calculations using them produce approximate
+        reaction enthalpies.
+    </div>
+
+
+    <h3>Standard Enthalpy of Formation</h3>
+
+    <p>
+        The standard enthalpy of formation,
+        ΔH<sub>f</sub><sup>°</sup>, is the enthalpy change when one
+        mole of a substance forms from its elements in their standard
+        states.
+    </p>
+
+    <div class="key-concept">
+        The standard enthalpy of formation of an element in its
+        standard state is zero.
+        <br><br>
+
+        Examples include O<sub>2</sub>(g), H<sub>2</sub>(g),
+        N<sub>2</sub>(g), and C(s, graphite).
+    </div>
+
+    <p>
+        Standard reaction enthalpy can be calculated using formation
+        enthalpies:
+    </p>
+
+    <div class="equation">
+        ΔH<sub>reaction</sub><sup>°</sup>
+        =
+        Sum of ΔH<sub>f</sub><sup>°</sup> for products
+        −
+        Sum of ΔH<sub>f</sub><sup>°</sup> for reactants
+    </div>
+
+    <p>
+        Each formation enthalpy must be multiplied by the corresponding
+        coefficient in the balanced equation.
+    </p>
+
+
+    <div class="example">
+
+        <h4>Example: Enthalpy of Combustion</h4>
+
+        <div class="equation">
+            CH<sub>4</sub>(g) + 2O<sub>2</sub>(g)
+            → CO<sub>2</sub>(g) + 2H<sub>2</sub>O(l)
+        </div>
+
+        <p>Use these formation enthalpies:</p>
+
+        <div class="table-container">
+
+            <table class="particle-table">
+
+                <thead>
+                    <tr>
+                        <th>Substance</th>
+                        <th>ΔH<sub>f</sub><sup>°</sup> (kJ/mol)</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>CH<sub>4</sub>(g)</td>
+                        <td>−74.8</td>
+                    </tr>
+
+                    <tr>
+                        <td>O<sub>2</sub>(g)</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr>
+                        <td>CO<sub>2</sub>(g)</td>
+                        <td>−393.5</td>
+                    </tr>
+
+                    <tr>
+                        <td>H<sub>2</sub>O(l)</td>
+                        <td>−285.8</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <p>Calculate the sum for the products:</p>
+
+        <div class="equation">
+            Products =
+            (−393.5) + 2(−285.8)
+            = −965.1 kJ/mol
+        </div>
+
+        <p>Calculate the sum for the reactants:</p>
+
+        <div class="equation">
+            Reactants =
+            (−74.8) + 2(0)
+            = −74.8 kJ/mol
+        </div>
+
+        <div class="equation">
+            ΔH<sub>reaction</sub><sup>°</sup>
+            = −965.1 − (−74.8)
+        </div>
+
+        <div class="equation">
+            ΔH<sub>reaction</sub><sup>°</sup>
+            = −890.3 kJ/mol
+        </div>
+
+    </div>
+
+
+    <h3>Hess’s Law</h3>
+
+    <p>
+        Hess’s law states that if several reactions add together to
+        form a target reaction, their enthalpy changes also add together
+        to produce the enthalpy change of the target reaction.
+    </p>
+
+    <div class="key-concept">
+        When manipulating a chemical equation:
+        <br><br>
+
+        • Reverse the equation → reverse the sign of ΔH
+        <br><br>
+
+        • Multiply the equation → multiply ΔH by the same factor
+        <br><br>
+
+        • Add equations → add their ΔH values
+    </div>
+
+
+    <div class="example">
+
+        <h4>Example: Using Hess’s Law</h4>
+
+        <p>Determine ΔH for:</p>
+
+        <div class="equation">
+            C(s) +
+
+            <span class="fraction">
+                <span class="numerator">
+                    1
+                </span>
+                <span class="denominator">
+                    2
+                </span>
+            </span>
+
+            O<sub>2</sub>(g)
+            → CO(g)
+        </div>
+
+        <p>Use the following equations:</p>
+
+        <div class="equation">
+            C(s) + O<sub>2</sub>(g)
+            → CO<sub>2</sub>(g)
+            &nbsp;&nbsp;
+            ΔH = −393.5 kJ
+        </div>
+
+        <div class="equation">
+            CO(g) +
+
+            <span class="fraction">
+                <span class="numerator">
+                    1
+                </span>
+                <span class="denominator">
+                    2
+                </span>
+            </span>
+
+            O<sub>2</sub>(g)
+            → CO<sub>2</sub>(g)
+            &nbsp;&nbsp;
+            ΔH = −283.0 kJ
+        </div>
+
+        <p>
+            Reverse the second equation so that CO appears as a product.
+            The sign of ΔH also reverses.
+        </p>
+
+        <div class="equation">
+            CO<sub>2</sub>(g)
+            → CO(g) +
+
+            <span class="fraction">
+                <span class="numerator">
+                    1
+                </span>
+                <span class="denominator">
+                    2
+                </span>
+            </span>
+
+            O<sub>2</sub>(g)
+            &nbsp;&nbsp;
+            ΔH = +283.0 kJ
+        </div>
+
+        <p>
+            Add the equations. CO<sub>2</sub> cancels, and part of the
+            O<sub>2</sub> also cancels.
+        </p>
+
+        <div class="equation">
+            ΔH = −393.5 kJ + 283.0 kJ
+        </div>
+
+        <div class="equation">
+            ΔH = −110.5 kJ
+        </div>
+
+    </div>
+
+
+    <h3>Comparing the Methods</h3>
+
+    <div class="table-container">
+
+        <table class="particle-table">
+
+            <thead>
+                <tr>
+                    <th>Method</th>
+                    <th>Information Used</th>
+                    <th>Important Detail</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Calorimetry</td>
+                    <td>Measured temperature change</td>
+                    <td>Based on experimental heat transfer</td>
+                </tr>
+
+                <tr>
+                    <td>Bond enthalpies</td>
+                    <td>Bonds broken and formed</td>
+                    <td>Produces an approximate value</td>
+                </tr>
+
+                <tr>
+                    <td>Formation enthalpies</td>
+                    <td>Tabulated ΔH<sub>f</sub><sup>°</sup> values</td>
+                    <td>Products minus reactants</td>
+                </tr>
+
+                <tr>
+                    <td>Hess’s law</td>
+                    <td>Enthalpies of related reactions</td>
+                    <td>Equations and ΔH values are combined</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
 
 </section>
       

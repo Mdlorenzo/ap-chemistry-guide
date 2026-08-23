@@ -1,0 +1,330 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 900 570"
+    role="img"
+    aria-labelledby="title description"
+>
+    <title id="title">
+        Catalyzed and uncatalyzed reaction-energy pathways
+    </title>
+
+    <desc id="description">
+        An exothermic energy profile showing a high uncatalyzed
+        activation-energy pathway, a lower catalyzed pathway,
+        transition states, and a negative enthalpy change.
+    </desc>
+
+    <defs>
+
+        <marker
+            id="arrow-blue"
+            markerWidth="8"
+            markerHeight="8"
+            refX="4"
+            refY="4"
+            orient="auto-start-reverse"
+        >
+            <path d="M0,0 L8,4 L0,8 Z" fill="#2563eb"/>
+        </marker>
+
+        <marker
+            id="arrow-red"
+            markerWidth="8"
+            markerHeight="8"
+            refX="4"
+            refY="4"
+            orient="auto-start-reverse"
+        >
+            <path d="M0,0 L8,4 L0,8 Z" fill="#dc2626"/>
+        </marker>
+
+    </defs>
+
+    <rect width="900" height="570" fill="#ffffff"/>
+
+    <text
+        x="450"
+        y="38"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="27"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Effect of a Catalyst on Activation Energy
+    </text>
+
+    <rect
+        x="35"
+        y="65"
+        width="830"
+        height="465"
+        rx="14"
+        fill="#f8fafc"
+        stroke="#cbd9e8"
+        stroke-width="2"
+    />
+
+
+    <!-- Axes -->
+
+    <line
+        x1="110"
+        y1="455"
+        x2="805"
+        y2="455"
+        stroke="#1f2937"
+        stroke-width="3"
+    />
+
+    <line
+        x1="110"
+        y1="455"
+        x2="110"
+        y2="105"
+        stroke="#1f2937"
+        stroke-width="3"
+    />
+
+    <text
+        x="455"
+        y="505"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="19"
+        fill="#1f2937"
+    >
+        Reaction Progress
+    </text>
+
+    <text
+        x="68"
+        y="280"
+        text-anchor="middle"
+        transform="rotate(-90 68 280)"
+        font-family="Arial, sans-serif"
+        font-size="19"
+        fill="#1f2937"
+    >
+        Potential Energy
+    </text>
+
+
+    <!-- Reactant and product energy levels -->
+
+    <line
+        x1="140"
+        y1="350"
+        x2="245"
+        y2="350"
+        stroke="#1f2937"
+        stroke-width="4"
+    />
+
+    <line
+        x1="680"
+        y1="405"
+        x2="785"
+        y2="405"
+        stroke="#1f2937"
+        stroke-width="4"
+    />
+
+    <text
+        x="190"
+        y="380"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Reactants
+    </text>
+
+    <text
+        x="735"
+        y="435"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Products
+    </text>
+
+
+    <!-- Uncatalyzed pathway -->
+
+    <path
+        d="M 210 350
+           C 310 345, 335 150, 450 135
+           C 565 150, 595 390, 720 405"
+        fill="none"
+        stroke="#2563eb"
+        stroke-width="7"
+        stroke-linecap="round"
+    />
+
+    <!-- Catalyzed pathway -->
+
+    <path
+        d="M 210 350
+           C 310 345, 345 235, 450 220
+           C 555 235, 600 395, 720 405"
+        fill="none"
+        stroke="#16a34a"
+        stroke-width="7"
+        stroke-dasharray="14 10"
+        stroke-linecap="round"
+    />
+
+
+    <!-- Transition-state labels -->
+
+    <circle cx="450" cy="135" r="7" fill="#2563eb"/>
+    <circle cx="450" cy="220" r="7" fill="#16a34a"/>
+
+    <text
+        x="450"
+        y="112"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        font-weight="bold"
+        fill="#2563eb"
+    >
+        Uncatalyzed transition state
+    </text>
+
+    <text
+        x="575"
+        y="210"
+        text-anchor="start"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        font-weight="bold"
+        fill="#15803d"
+    >
+        Catalyzed pathway
+    </text>
+
+
+    <!-- Activation-energy arrows -->
+
+    <line
+        x1="285"
+        y1="350"
+        x2="285"
+        y2="135"
+        stroke="#2563eb"
+        stroke-width="3"
+        marker-start="url(#arrow-blue)"
+        marker-end="url(#arrow-blue)"
+    />
+
+    <text
+        x="270"
+        y="240"
+        text-anchor="end"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        font-weight="bold"
+        fill="#2563eb"
+    >
+        Larger Eₐ
+    </text>
+
+    <line
+        x1="350"
+        y1="350"
+        x2="350"
+        y2="220"
+        stroke="#dc2626"
+        stroke-width="3"
+        marker-start="url(#arrow-red)"
+        marker-end="url(#arrow-red)"
+    />
+
+    <text
+        x="365"
+        y="290"
+        text-anchor="start"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        font-weight="bold"
+        fill="#dc2626"
+    >
+        Smaller Eₐ
+    </text>
+
+
+    <!-- Enthalpy-change arrow -->
+
+    <line
+        x1="800"
+        y1="350"
+        x2="800"
+        y2="405"
+        stroke="#dc2626"
+        stroke-width="3"
+        marker-start="url(#arrow-red)"
+        marker-end="url(#arrow-red)"
+    />
+
+    <text
+        x="790"
+        y="382"
+        text-anchor="end"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        font-weight="bold"
+        fill="#dc2626"
+    >
+        ΔH &lt; 0
+    </text>
+
+
+    <!-- Legend -->
+
+    <line
+        x1="145"
+        y1="90"
+        x2="195"
+        y2="90"
+        stroke="#2563eb"
+        stroke-width="6"
+    />
+
+    <text
+        x="205"
+        y="96"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        fill="#1f2937"
+    >
+        Uncatalyzed
+    </text>
+
+    <line
+        x1="330"
+        y1="90"
+        x2="380"
+        y2="90"
+        stroke="#16a34a"
+        stroke-width="6"
+        stroke-dasharray="12 8"
+    />
+
+    <text
+        x="390"
+        y="96"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        fill="#1f2937"
+    >
+        Catalyzed
+    </text>
+
+</svg>

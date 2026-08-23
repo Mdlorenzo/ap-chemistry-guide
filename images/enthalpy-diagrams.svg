@@ -1,0 +1,301 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1000 540"
+    role="img"
+    aria-labelledby="title description"
+>
+    <title id="title">
+        Exothermic and endothermic enthalpy diagrams
+    </title>
+
+    <desc id="description">
+        Two energy diagrams comparing an exothermic reaction with
+        products below reactants and an endothermic reaction with
+        products above reactants.
+    </desc>
+
+    <rect width="1000" height="540" fill="#ffffff"/>
+
+    <text
+        x="500"
+        y="38"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="27"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Exothermic and Endothermic Reactions
+    </text>
+
+    <!-- Panel backgrounds -->
+
+    <rect
+        x="25"
+        y="65"
+        width="460"
+        height="440"
+        rx="14"
+        fill="#f8fafc"
+        stroke="#cbd9e8"
+        stroke-width="2"
+    />
+
+    <rect
+        x="515"
+        y="65"
+        width="460"
+        height="440"
+        rx="14"
+        fill="#f8fafc"
+        stroke="#cbd9e8"
+        stroke-width="2"
+    />
+
+    <!-- Exothermic panel -->
+
+    <text
+        x="255"
+        y="105"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="23"
+        font-weight="bold"
+        fill="#1e3a5f"
+    >
+        Exothermic
+    </text>
+
+    <line
+        x1="90"
+        y1="435"
+        x2="435"
+        y2="435"
+        stroke="#1f2937"
+        stroke-width="3"
+    />
+
+    <line
+        x1="90"
+        y1="435"
+        x2="90"
+        y2="130"
+        stroke="#1f2937"
+        stroke-width="3"
+    />
+
+    <line
+        x1="135"
+        y1="225"
+        x2="245"
+        y2="225"
+        stroke="#2563eb"
+        stroke-width="7"
+    />
+
+    <line
+        x1="300"
+        y1="350"
+        x2="410"
+        y2="350"
+        stroke="#2563eb"
+        stroke-width="7"
+    />
+
+    <text
+        x="190"
+        y="210"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Reactants
+    </text>
+
+    <text
+        x="355"
+        y="380"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Products
+    </text>
+
+    <line
+        x1="270"
+        y1="225"
+        x2="270"
+        y2="350"
+        stroke="#dc2626"
+        stroke-width="4"
+    />
+
+    <polygon
+        points="270,362 262,347 278,347"
+        fill="#dc2626"
+    />
+
+    <text
+        x="285"
+        y="292"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#dc2626"
+    >
+        ΔH &lt; 0
+    </text>
+
+    <text
+        x="255"
+        y="470"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#4b5563"
+    >
+        Energy is released
+    </text>
+
+    <!-- Endothermic panel -->
+
+    <text
+        x="745"
+        y="105"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="23"
+        font-weight="bold"
+        fill="#1e3a5f"
+    >
+        Endothermic
+    </text>
+
+    <line
+        x1="580"
+        y1="435"
+        x2="925"
+        y2="435"
+        stroke="#1f2937"
+        stroke-width="3"
+    />
+
+    <line
+        x1="580"
+        y1="435"
+        x2="580"
+        y2="130"
+        stroke="#1f2937"
+        stroke-width="3"
+    />
+
+    <line
+        x1="625"
+        y1="350"
+        x2="735"
+        y2="350"
+        stroke="#16a34a"
+        stroke-width="7"
+    />
+
+    <line
+        x1="790"
+        y1="225"
+        x2="900"
+        y2="225"
+        stroke="#16a34a"
+        stroke-width="7"
+    />
+
+    <text
+        x="680"
+        y="380"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Reactants
+    </text>
+
+    <text
+        x="845"
+        y="210"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Products
+    </text>
+
+    <line
+        x1="760"
+        y1="350"
+        x2="760"
+        y2="225"
+        stroke="#dc2626"
+        stroke-width="4"
+    />
+
+    <polygon
+        points="760,213 752,228 768,228"
+        fill="#dc2626"
+    />
+
+    <text
+        x="775"
+        y="292"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#dc2626"
+    >
+        ΔH &gt; 0
+    </text>
+
+    <text
+        x="745"
+        y="470"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#4b5563"
+    >
+        Energy is absorbed
+    </text>
+
+    <!-- Shared axis labels -->
+
+    <text
+        x="55"
+        y="285"
+        text-anchor="middle"
+        transform="rotate(-90 55 285)"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        fill="#1f2937"
+    >
+        Enthalpy
+    </text>
+
+    <text
+        x="545"
+        y="285"
+        text-anchor="middle"
+        transform="rotate(-90 545 285)"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        fill="#1f2937"
+    >
+        Enthalpy
+    </text>
+
+</svg>

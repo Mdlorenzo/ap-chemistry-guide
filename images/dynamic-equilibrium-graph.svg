@@ -1,0 +1,199 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 950 590"
+    role="img"
+    aria-labelledby="title description"
+>
+    <title id="title">
+        Concentrations as a reaction reaches equilibrium
+    </title>
+
+    <desc id="description">
+        A concentration-versus-time graph in which reactant
+        concentration decreases and product concentration increases.
+        Both become constant when equilibrium is reached, but their
+        concentrations are not equal.
+    </desc>
+
+    <rect width="950" height="590" fill="#ffffff"/>
+
+    <text
+        x="475"
+        y="40"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="27"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Concentration as Equilibrium Is Established
+    </text>
+
+    <rect
+        x="40"
+        y="70"
+        width="870"
+        height="475"
+        rx="14"
+        fill="#f8fafc"
+        stroke="#cbd9e8"
+        stroke-width="2"
+    />
+
+    <!-- Axes -->
+
+    <line
+        x1="120"
+        y1="475"
+        x2="855"
+        y2="475"
+        stroke="#1f2937"
+        stroke-width="3"
+    />
+
+    <line
+        x1="120"
+        y1="475"
+        x2="120"
+        y2="110"
+        stroke="#1f2937"
+        stroke-width="3"
+    />
+
+    <text
+        x="490"
+        y="520"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        fill="#1f2937"
+    >
+        Time
+    </text>
+
+    <text
+        x="70"
+        y="295"
+        text-anchor="middle"
+        transform="rotate(-90 70 295)"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        fill="#1f2937"
+    >
+        Concentration
+    </text>
+
+    <!-- Equilibrium marker -->
+
+    <line
+        x1="535"
+        y1="120"
+        x2="535"
+        y2="475"
+        stroke="#64748b"
+        stroke-width="3"
+        stroke-dasharray="10 9"
+    />
+
+    <text
+        x="550"
+        y="145"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#4b5563"
+    >
+        Equilibrium established
+    </text>
+
+    <!-- Reactant concentration -->
+
+    <path
+        d="M 145 150
+           C 240 170, 320 230, 390 270
+           C 455 305, 495 315, 535 320
+           C 635 322, 735 322, 835 322"
+        fill="none"
+        stroke="#2563eb"
+        stroke-width="7"
+        stroke-linecap="round"
+    />
+
+    <!-- Product concentration -->
+
+    <path
+        d="M 145 430
+           C 235 405, 315 365, 390 340
+           C 455 315, 495 302, 535 298
+           C 635 296, 735 296, 835 296"
+        fill="none"
+        stroke="#dc2626"
+        stroke-width="7"
+        stroke-linecap="round"
+    />
+
+    <!-- Labels -->
+
+    <line
+        x1="700"
+        y1="322"
+        x2="750"
+        y2="322"
+        stroke="#2563eb"
+        stroke-width="7"
+    />
+
+    <text
+        x="765"
+        y="329"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#2563eb"
+    >
+        Reactant
+    </text>
+
+    <line
+        x1="700"
+        y1="270"
+        x2="750"
+        y2="270"
+        stroke="#dc2626"
+        stroke-width="7"
+    />
+
+    <text
+        x="765"
+        y="277"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#dc2626"
+    >
+        Product
+    </text>
+
+    <text
+        x="665"
+        y="385"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#4b5563"
+    >
+        Concentrations remain constant
+    </text>
+
+    <text
+        x="665"
+        y="410"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#4b5563"
+    >
+        but are not necessarily equal
+    </text>
+
+</svg>

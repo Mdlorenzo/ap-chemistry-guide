@@ -1,0 +1,213 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 950 600"
+    role="img"
+    aria-labelledby="title description"
+>
+    <title id="title">
+        Equilibrium response when reactant is added
+    </title>
+
+    <desc id="description">
+        A concentration-versus-time graph showing reactant
+        concentration jumping immediately when reactant is added.
+        Reactant then decreases partially while product gradually
+        increases as a new equilibrium is established.
+    </desc>
+
+    <rect width="950" height="600" fill="#ffffff"/>
+
+    <text
+        x="475"
+        y="40"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="27"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Adding Reactant to a System at Equilibrium
+    </text>
+
+    <rect
+        x="40"
+        y="70"
+        width="870"
+        height="480"
+        rx="14"
+        fill="#f8fafc"
+        stroke="#cbd9e8"
+        stroke-width="2"
+    />
+
+    <!-- Axes -->
+
+    <line
+        x1="115"
+        y1="480"
+        x2="860"
+        y2="480"
+        stroke="#1f2937"
+        stroke-width="3"
+    />
+
+    <line
+        x1="115"
+        y1="480"
+        x2="115"
+        y2="110"
+        stroke="#1f2937"
+        stroke-width="3"
+    />
+
+    <text
+        x="490"
+        y="525"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        fill="#1f2937"
+    >
+        Time
+    </text>
+
+    <text
+        x="67"
+        y="295"
+        text-anchor="middle"
+        transform="rotate(-90 67 295)"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        fill="#1f2937"
+    >
+        Concentration
+    </text>
+
+    <!-- Disturbance marker -->
+
+    <line
+        x1="445"
+        y1="115"
+        x2="445"
+        y2="480"
+        stroke="#64748b"
+        stroke-width="3"
+        stroke-dasharray="10 8"
+    />
+
+    <text
+        x="445"
+        y="100"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#4b5563"
+    >
+        Reactant added
+    </text>
+
+    <!-- Reactant line before disturbance -->
+
+    <line
+        x1="145"
+        y1="335"
+        x2="445"
+        y2="335"
+        stroke="#2563eb"
+        stroke-width="7"
+        stroke-linecap="round"
+    />
+
+    <!-- Immediate reactant increase -->
+
+    <line
+        x1="445"
+        y1="335"
+        x2="445"
+        y2="165"
+        stroke="#2563eb"
+        stroke-width="7"
+    />
+
+    <!-- Reactant adjustment -->
+
+    <path
+        d="M 445 165
+           C 510 180, 555 220, 620 245
+           C 680 265, 750 265, 835 265"
+        fill="none"
+        stroke="#2563eb"
+        stroke-width="7"
+        stroke-linecap="round"
+    />
+
+    <!-- Product line before and after disturbance -->
+
+    <line
+        x1="145"
+        y1="295"
+        x2="445"
+        y2="295"
+        stroke="#dc2626"
+        stroke-width="7"
+        stroke-linecap="round"
+    />
+
+    <path
+        d="M 445 295
+           C 520 282, 565 240, 625 220
+           C 685 200, 755 200, 835 200"
+        fill="none"
+        stroke="#dc2626"
+        stroke-width="7"
+        stroke-linecap="round"
+    />
+
+    <!-- Labels -->
+
+    <text
+        x="750"
+        y="285"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#2563eb"
+    >
+        Reactant
+    </text>
+
+    <text
+        x="750"
+        y="185"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#dc2626"
+    >
+        Product
+    </text>
+
+    <text
+        x="270"
+        y="390"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#4b5563"
+    >
+        Original equilibrium
+    </text>
+
+    <text
+        x="700"
+        y="390"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#4b5563"
+    >
+        New equilibrium
+    </text>
+
+</svg>

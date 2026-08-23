@@ -1,0 +1,293 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 950 650"
+    role="img"
+    aria-labelledby="title description"
+>
+    <title id="title">Heating curve of water</title>
+
+    <desc id="description">
+        A heating curve showing solid water warming, melting at zero
+        degrees Celsius, liquid water warming, boiling at one hundred
+        degrees Celsius, and water vapor warming.
+    </desc>
+
+    <rect width="950" height="650" fill="#ffffff"/>
+
+    <text
+        x="475"
+        y="42"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="28"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Heating Curve of Water
+    </text>
+
+    <rect
+        x="40"
+        y="70"
+        width="870"
+        height="525"
+        rx="14"
+        fill="#f8fafc"
+        stroke="#cbd9e8"
+        stroke-width="2"
+    />
+
+    <!-- Axes -->
+
+    <line
+        x1="115"
+        y1="525"
+        x2="865"
+        y2="525"
+        stroke="#1f2937"
+        stroke-width="3"
+    />
+
+    <line
+        x1="115"
+        y1="525"
+        x2="115"
+        y2="105"
+        stroke="#1f2937"
+        stroke-width="3"
+    />
+
+    <text
+        x="490"
+        y="570"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        fill="#1f2937"
+    >
+        Heat Added
+    </text>
+
+    <text
+        x="65"
+        y="315"
+        text-anchor="middle"
+        transform="rotate(-90 65 315)"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        fill="#1f2937"
+    >
+        Temperature (°C)
+    </text>
+
+    <!-- Temperature reference lines -->
+
+    <line
+        x1="105"
+        y1="390"
+        x2="830"
+        y2="390"
+        stroke="#94a3b8"
+        stroke-width="2"
+        stroke-dasharray="8 8"
+    />
+
+    <line
+        x1="105"
+        y1="215"
+        x2="830"
+        y2="215"
+        stroke="#94a3b8"
+        stroke-width="2"
+        stroke-dasharray="8 8"
+    />
+
+    <text
+        x="95"
+        y="396"
+        text-anchor="end"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#4b5563"
+    >
+        0°C
+    </text>
+
+    <text
+        x="95"
+        y="221"
+        text-anchor="end"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#4b5563"
+    >
+        100°C
+    </text>
+
+    <!-- Heating curve -->
+
+    <polyline
+        points="
+            145,485
+            265,390
+            430,390
+            605,215
+            765,215
+            845,125
+        "
+        fill="none"
+        stroke="#2563eb"
+        stroke-width="8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    />
+
+    <!-- Segment labels -->
+
+    <text
+        x="185"
+        y="420"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="24"
+        font-weight="bold"
+        fill="#1e3a5f"
+    >
+        A
+    </text>
+
+    <text
+        x="345"
+        y="375"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="24"
+        font-weight="bold"
+        fill="#1e3a5f"
+    >
+        B
+    </text>
+
+    <text
+        x="500"
+        y="285"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="24"
+        font-weight="bold"
+        fill="#1e3a5f"
+    >
+        C
+    </text>
+
+    <text
+        x="685"
+        y="200"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="24"
+        font-weight="bold"
+        fill="#1e3a5f"
+    >
+        D
+    </text>
+
+    <text
+        x="815"
+        y="165"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="24"
+        font-weight="bold"
+        fill="#1e3a5f"
+    >
+        E
+    </text>
+
+    <!-- Process labels -->
+
+    <text
+        x="175"
+        y="505"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        font-weight="bold"
+        fill="#4b5563"
+    >
+        Solid warms
+    </text>
+
+    <text
+        x="345"
+        y="420"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        font-weight="bold"
+        fill="#4b5563"
+    >
+        Melting
+    </text>
+
+    <text
+        x="510"
+        y="340"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        font-weight="bold"
+        fill="#4b5563"
+    >
+        Liquid warms
+    </text>
+
+    <text
+        x="685"
+        y="245"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        font-weight="bold"
+        fill="#4b5563"
+    >
+        Boiling
+    </text>
+
+    <text
+        x="825"
+        y="110"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        font-weight="bold"
+        fill="#4b5563"
+    >
+        Gas warms
+    </text>
+
+    <!-- Phase labels at plateaus -->
+
+    <text
+        x="345"
+        y="450"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="15"
+        fill="#64748b"
+    >
+        Solid + Liquid
+    </text>
+
+    <text
+        x="685"
+        y="275"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="15"
+        fill="#64748b"
+    >
+        Liquid + Gas
+    </text>
+
+</svg>

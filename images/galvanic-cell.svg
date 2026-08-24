@@ -1,0 +1,356 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1100 650"
+    role="img"
+    aria-labelledby="title description"
+>
+    <title id="title">Zinc-copper galvanic cell</title>
+
+    <desc id="description">
+        A labeled zinc-copper galvanic cell showing zinc oxidation at
+        the anode, copper reduction at the cathode, electron flow
+        through a wire, and ion movement through a salt bridge.
+    </desc>
+
+    <defs>
+
+        <marker
+            id="arrow-blue"
+            markerWidth="10"
+            markerHeight="10"
+            refX="8"
+            refY="5"
+            orient="auto"
+        >
+            <path d="M0,0 L10,5 L0,10 Z" fill="#2563eb"/>
+        </marker>
+
+        <marker
+            id="arrow-red"
+            markerWidth="10"
+            markerHeight="10"
+            refX="8"
+            refY="5"
+            orient="auto"
+        >
+            <path d="M0,0 L10,5 L0,10 Z" fill="#dc2626"/>
+        </marker>
+
+    </defs>
+
+    <rect width="1100" height="650" fill="#ffffff"/>
+
+    <text
+        x="550"
+        y="40"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="28"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Zinc–Copper Galvanic Cell
+    </text>
+
+    <!-- Beakers -->
+
+    <path
+        d="M 90 285
+           L 110 565
+           Q 115 590 145 590
+           L 430 590
+           Q 460 590 465 565
+           L 485 285"
+        fill="#eff6ff"
+        stroke="#64748b"
+        stroke-width="4"
+    />
+
+    <path
+        d="M 615 285
+           L 635 565
+           Q 640 590 670 590
+           L 955 590
+           Q 985 590 990 565
+           L 1010 285"
+        fill="#eff6ff"
+        stroke="#64748b"
+        stroke-width="4"
+    />
+
+    <!-- Solution surfaces -->
+
+    <line x1="102" y1="390" x2="473" y2="390"
+          stroke="#60a5fa" stroke-width="4"/>
+
+    <line x1="627" y1="390" x2="998" y2="390"
+          stroke="#60a5fa" stroke-width="4"/>
+
+    <!-- Electrodes -->
+
+    <rect
+        x="225"
+        y="190"
+        width="55"
+        height="290"
+        rx="5"
+        fill="#94a3b8"
+        stroke="#475569"
+        stroke-width="3"
+    />
+
+    <rect
+        x="820"
+        y="190"
+        width="55"
+        height="290"
+        rx="5"
+        fill="#b45309"
+        stroke="#78350f"
+        stroke-width="3"
+    />
+
+    <!-- External wire -->
+
+    <path
+        d="M 252 190
+           L 252 115
+           L 847 115
+           L 847 190"
+        fill="none"
+        stroke="#1f2937"
+        stroke-width="6"
+    />
+
+    <!-- Electron-flow arrow -->
+
+    <line
+        x1="350"
+        y1="95"
+        x2="745"
+        y2="95"
+        stroke="#2563eb"
+        stroke-width="5"
+        marker-end="url(#arrow-blue)"
+    />
+
+    <text
+        x="550"
+        y="80"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="19"
+        font-weight="bold"
+        fill="#2563eb"
+    >
+        Electron flow
+    </text>
+
+    <!-- Salt bridge -->
+
+    <path
+        d="M 395 390
+           L 395 245
+           Q 395 210 430 210
+           L 670 210
+           Q 705 210 705 245
+           L 705 390"
+        fill="none"
+        stroke="#a78bfa"
+        stroke-width="38"
+        stroke-linecap="round"
+    />
+
+    <path
+        d="M 395 390
+           L 395 245
+           Q 395 210 430 210
+           L 670 210
+           Q 705 210 705 245
+           L 705 390"
+        fill="none"
+        stroke="#6d28d9"
+        stroke-width="3"
+    />
+
+    <text
+        x="550"
+        y="195"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#6d28d9"
+    >
+        Salt bridge
+    </text>
+
+    <!-- Salt bridge ion movement -->
+
+    <line
+        x1="515"
+        y1="230"
+        x2="430"
+        y2="230"
+        stroke="#dc2626"
+        stroke-width="4"
+        marker-end="url(#arrow-red)"
+    />
+
+    <text
+        x="472"
+        y="260"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        fill="#991b1b"
+    >
+        Anions
+    </text>
+
+    <line
+        x1="585"
+        y1="230"
+        x2="670"
+        y2="230"
+        stroke="#2563eb"
+        stroke-width="4"
+        marker-end="url(#arrow-blue)"
+    />
+
+    <text
+        x="628"
+        y="260"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        fill="#1d4ed8"
+    >
+        Cations
+    </text>
+
+    <!-- Electrode labels -->
+
+    <text
+        x="252"
+        y="165"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Zn
+    </text>
+
+    <text
+        x="847"
+        y="165"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        font-weight="bold"
+        fill="#92400e"
+    >
+        Cu
+    </text>
+
+    <text
+        x="252"
+        y="520"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="19"
+        font-weight="bold"
+        fill="#1e3a5f"
+    >
+        Anode (−)
+    </text>
+
+    <text
+        x="847"
+        y="520"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="19"
+        font-weight="bold"
+        fill="#1e3a5f"
+    >
+        Cathode (+)
+    </text>
+
+    <!-- Half-reaction labels -->
+
+    <text
+        x="285"
+        y="555"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#1f2937"
+    >
+        Zn → Zn²⁺ + 2e⁻
+    </text>
+
+    <text
+        x="810"
+        y="555"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#1f2937"
+    >
+        Cu²⁺ + 2e⁻ → Cu
+    </text>
+
+    <!-- Solution ion labels -->
+
+    <text
+        x="160"
+        y="425"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#2563eb"
+    >
+        Zn²⁺(aq)
+    </text>
+
+    <text
+        x="685"
+        y="425"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#2563eb"
+    >
+        Cu²⁺(aq)
+    </text>
+
+    <!-- Side labels -->
+
+    <text
+        x="285"
+        y="625"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#dc2626"
+    >
+        Oxidation
+    </text>
+
+    <text
+        x="815"
+        y="625"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#16a34a"
+    >
+        Reduction
+    </text>
+
+</svg>

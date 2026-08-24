@@ -963,9 +963,515 @@
     <h2>Gibbs Free Energy and Equilibrium</h2>
 
     <p>
-        This lesson will connect enthalpy, entropy, temperature,
-        spontaneity, equilibrium constants, and coupled reactions.
+        Gibbs free energy combines enthalpy, entropy, and temperature
+        into a single quantity that predicts whether a process is
+        thermodynamically favored under a specified set of conditions.
     </p>
+
+
+    <h3>Gibbs Free Energy</h3>
+
+    <div class="equation">
+        ΔG = ΔH − TΔS
+    </div>
+
+    <p>In this equation:</p>
+
+    <ul>
+        <li>ΔG is the Gibbs free-energy change.</li>
+        <li>ΔH is the enthalpy change.</li>
+        <li>T is the absolute temperature in kelvin.</li>
+        <li>ΔS is the entropy change.</li>
+    </ul>
+
+    <div class="key-concept">
+        Before using ΔG = ΔH − TΔS, make sure ΔH and ΔS use compatible
+        energy units.
+        <br><br>
+
+        If ΔH is in kJ/mol, convert ΔS from J/(mol·K) to kJ/(mol·K).
+    </div>
+
+
+    <h3>Interpreting the Sign of ΔG</h3>
+
+    <div class="table-container">
+
+        <table class="particle-table">
+
+            <thead>
+                <tr>
+                    <th>Value of ΔG</th>
+                    <th>Meaning</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>ΔG &lt; 0</td>
+                    <td>Forward process is thermodynamically favored</td>
+                </tr>
+
+                <tr>
+                    <td>ΔG = 0</td>
+                    <td>System is at equilibrium</td>
+                </tr>
+
+                <tr>
+                    <td>ΔG &gt; 0</td>
+                    <td>Forward process is not thermodynamically favored</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div class="key-concept">
+        A positive ΔG for the forward reaction means that the reverse
+        reaction has a negative ΔG and is thermodynamically favored
+        under the same conditions.
+    </div>
+
+
+    <div class="example">
+
+        <h4>Example: Calculating ΔG</h4>
+
+        <p>
+            A reaction has ΔH = −85.0 kJ/mol and
+            ΔS = −150 J/(mol·K). Calculate ΔG at 298 K.
+        </p>
+
+        <p>Convert ΔS to kilojoules:</p>
+
+        <div class="equation">
+            −150 J/(mol·K)
+            = −0.150 kJ/(mol·K)
+        </div>
+
+        <div class="equation">
+            ΔG = ΔH − TΔS
+        </div>
+
+        <div class="equation">
+            ΔG =
+            −85.0 kJ/mol
+            −
+            (298 K)(−0.150 kJ/(mol·K))
+        </div>
+
+        <div class="equation">
+            ΔG = −40.3 kJ/mol
+        </div>
+
+        <p>
+            Because ΔG is negative, the forward reaction is
+            <strong>thermodynamically favored at 298 K</strong>.
+        </p>
+
+    </div>
+
+
+    <h3>Temperature Dependence</h3>
+
+    <p>
+        Whether a reaction is thermodynamically favored can depend on
+        the signs of ΔH and ΔS and on the temperature.
+    </p>
+
+    <div class="table-container">
+
+        <table class="particle-table">
+
+            <thead>
+                <tr>
+                    <th>Sign of ΔH</th>
+                    <th>Sign of ΔS</th>
+                    <th>Temperature Dependence</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Negative</td>
+                    <td>Positive</td>
+                    <td>Favored at all temperatures</td>
+                </tr>
+
+                <tr>
+                    <td>Positive</td>
+                    <td>Negative</td>
+                    <td>Not favored at any temperature</td>
+                </tr>
+
+                <tr>
+                    <td>Negative</td>
+                    <td>Negative</td>
+                    <td>Favored at lower temperatures</td>
+                </tr>
+
+                <tr>
+                    <td>Positive</td>
+                    <td>Positive</td>
+                    <td>Favored at higher temperatures</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <h3>Finding the Transition Temperature</h3>
+
+    <p>
+        The temperature at which a process changes between favored and
+        not favored occurs when ΔG = 0.
+    </p>
+
+    <div class="equation">
+        0 = ΔH − TΔS
+    </div>
+
+    <div class="equation">
+        T =
+
+        <span class="fraction">
+            <span class="numerator">
+                ΔH
+            </span>
+            <span class="denominator">
+                ΔS
+            </span>
+        </span>
+    </div>
+
+    <div class="example">
+
+        <h4>Example: Temperature Threshold</h4>
+
+        <p>
+            A process has ΔH = +50.0 kJ/mol and
+            ΔS = +120 J/(mol·K). Calculate the temperature at which
+            ΔG = 0.
+        </p>
+
+        <p>Convert ΔS to kilojoules:</p>
+
+        <div class="equation">
+            +120 J/(mol·K)
+            = +0.120 kJ/(mol·K)
+        </div>
+
+        <div class="equation">
+            T =
+
+            <span class="fraction">
+                <span class="numerator">
+                    50.0 kJ/mol
+                </span>
+                <span class="denominator">
+                    0.120 kJ/(mol·K)
+                </span>
+            </span>
+        </div>
+
+        <div class="equation">
+            T = 417 K
+        </div>
+
+        <p>
+            Because both ΔH and ΔS are positive, the process is favored
+            at temperatures <strong>above 417 K</strong>.
+        </p>
+
+    </div>
+
+
+    <h3>Standard Free Energy and Equilibrium</h3>
+
+    <p>
+        The standard free-energy change, ΔG°, is related to the
+        equilibrium constant.
+    </p>
+
+    <div class="equation">
+        ΔG° = −RT ln(K)
+    </div>
+
+    <p>In this equation:</p>
+
+    <ul>
+        <li>R = 8.314 J/(mol·K)</li>
+        <li>T is measured in kelvin</li>
+        <li>K is the equilibrium constant</li>
+    </ul>
+
+    <div class="table-container">
+
+        <table class="particle-table">
+
+            <thead>
+                <tr>
+                    <th>ΔG°</th>
+                    <th>K</th>
+                    <th>Equilibrium Position</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Negative</td>
+                    <td>K &gt; 1</td>
+                    <td>Products favored</td>
+                </tr>
+
+                <tr>
+                    <td>Zero</td>
+                    <td>K = 1</td>
+                    <td>Neither side strongly favored</td>
+                </tr>
+
+                <tr>
+                    <td>Positive</td>
+                    <td>K &lt; 1</td>
+                    <td>Reactants favored</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <div class="example">
+
+        <h4>Example: Finding K from ΔG°</h4>
+
+        <p>
+            A reaction has ΔG° = −10.0 kJ/mol at 298 K. Calculate K.
+        </p>
+
+        <p>Convert ΔG° to joules:</p>
+
+        <div class="equation">
+            −10.0 kJ/mol = −10,000 J/mol
+        </div>
+
+        <div class="equation">
+            −10,000
+            = −(8.314)(298)ln(K)
+        </div>
+
+        <div class="equation">
+            ln(K) = 4.04
+        </div>
+
+        <div class="equation">
+            K = e<sup>4.04</sup> = 56.6
+        </div>
+
+        <p>
+            Because K is greater than 1, products are favored under
+            standard-state equilibrium conditions.
+        </p>
+
+    </div>
+
+
+    <h3>Free Energy under Nonstandard Conditions</h3>
+
+    <p>
+        The actual free-energy change depends on the current composition
+        of the reaction mixture.
+    </p>
+
+    <div class="equation">
+        ΔG = ΔG° + RT ln(Q)
+    </div>
+
+    <p>
+        Q is the reaction quotient calculated using the current
+        concentrations or partial pressures.
+    </p>
+
+    <div class="table-container">
+
+        <table class="particle-table">
+
+            <thead>
+                <tr>
+                    <th>Comparison</th>
+                    <th>Sign of ΔG</th>
+                    <th>Favored Direction</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Q &lt; K</td>
+                    <td>Negative</td>
+                    <td>Toward products</td>
+                </tr>
+
+                <tr>
+                    <td>Q = K</td>
+                    <td>Zero</td>
+                    <td>At equilibrium</td>
+                </tr>
+
+                <tr>
+                    <td>Q &gt; K</td>
+                    <td>Positive</td>
+                    <td>Toward reactants</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div class="key-concept">
+        ΔG° describes standard-state conditions.
+        <br><br>
+
+        ΔG describes the current conditions.
+        <br><br>
+
+        A reaction with positive ΔG° can still proceed toward products
+        under nonstandard conditions if Q is sufficiently small.
+    </div>
+
+
+    <h3>Free Energy at Equilibrium</h3>
+
+    <p>At equilibrium:</p>
+
+    <div class="equation">
+        ΔG = 0
+    </div>
+
+    <div class="equation">
+        Q = K
+    </div>
+
+    <p>
+        The forward and reverse reactions continue, but neither
+        direction has a net thermodynamic driving force.
+    </p>
+
+
+    <h3>Coupled Reactions</h3>
+
+    <p>
+        A thermodynamically unfavorable reaction can be combined with a
+        sufficiently favorable reaction so that the overall process has
+        a negative ΔG.
+    </p>
+
+    <div class="equation">
+        ΔG<sub>overall</sub>
+        =
+        ΔG<sub>reaction 1</sub>
+        +
+        ΔG<sub>reaction 2</sub>
+    </div>
+
+    <div class="example">
+
+        <h4>Example: Reaction Coupling</h4>
+
+        <p>
+            One reaction has ΔG = +35 kJ/mol. It is coupled to a second
+            reaction with ΔG = −50 kJ/mol.
+        </p>
+
+        <div class="equation">
+            ΔG<sub>overall</sub>
+            = +35 kJ/mol + (−50 kJ/mol)
+        </div>
+
+        <div class="equation">
+            ΔG<sub>overall</sub> = −15 kJ/mol
+        </div>
+
+        <p>
+            The combined process is thermodynamically favored because
+            its overall ΔG is negative.
+        </p>
+
+    </div>
+
+
+    <h3>Manipulating Free-Energy Changes</h3>
+
+    <p>
+        Free-energy changes are manipulated in the same way as reaction
+        enthalpies and equilibrium constants.
+    </p>
+
+    <div class="table-container">
+
+        <table class="particle-table">
+
+            <thead>
+                <tr>
+                    <th>Change to Reaction</th>
+                    <th>Change to ΔG°</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Reverse the reaction</td>
+                    <td>Reverse the sign of ΔG°</td>
+                </tr>
+
+                <tr>
+                    <td>Multiply the equation by a factor</td>
+                    <td>Multiply ΔG° by the same factor</td>
+                </tr>
+
+                <tr>
+                    <td>Add reactions</td>
+                    <td>Add their ΔG° values</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <h3>Thermodynamic and Kinetic Control</h3>
+
+    <p>
+        A product can form more quickly because its pathway has a lower
+        activation energy, while a different product may be more
+        thermodynamically stable.
+    </p>
+
+    <div class="key-concept">
+        The kinetic product forms through the faster pathway.
+        <br><br>
+
+        The thermodynamic product has the lower final free energy.
+        <br><br>
+
+        Reaction rate and thermodynamic favorability answer different
+        questions.
+    </div>
 
 </section>
 

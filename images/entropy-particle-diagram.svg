@@ -1,0 +1,200 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1000 540"
+    role="img"
+    aria-labelledby="title description"
+>
+    <title id="title">Lower and higher entropy particle arrangements</title>
+
+    <desc id="description">
+        Two containers compare particles arranged in an ordered solid
+        structure with the same number of particles widely dispersed
+        in the gas phase.
+    </desc>
+
+    <rect width="1000" height="540" fill="#ffffff"/>
+
+    <text
+        x="500"
+        y="40"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="28"
+        font-weight="bold"
+        fill="#1f2937"
+    >
+        Comparing Entropy
+    </text>
+
+    <!-- Panel backgrounds -->
+
+    <rect
+        x="35"
+        y="70"
+        width="445"
+        height="425"
+        rx="14"
+        fill="#f8fafc"
+        stroke="#cbd9e8"
+        stroke-width="2"
+    />
+
+    <rect
+        x="520"
+        y="70"
+        width="445"
+        height="425"
+        rx="14"
+        fill="#f8fafc"
+        stroke="#cbd9e8"
+        stroke-width="2"
+    />
+
+    <!-- Titles -->
+
+    <text
+        x="257"
+        y="110"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="23"
+        font-weight="bold"
+        fill="#1e3a5f"
+    >
+        Lower Entropy
+    </text>
+
+    <text
+        x="742"
+        y="110"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="23"
+        font-weight="bold"
+        fill="#1e3a5f"
+    >
+        Higher Entropy
+    </text>
+
+    <!-- Containers -->
+
+    <rect
+        x="95"
+        y="140"
+        width="325"
+        height="260"
+        rx="8"
+        fill="#ffffff"
+        stroke="#64748b"
+        stroke-width="3"
+    />
+
+    <rect
+        x="580"
+        y="140"
+        width="325"
+        height="260"
+        rx="8"
+        fill="#ffffff"
+        stroke="#64748b"
+        stroke-width="3"
+    />
+
+    <!-- Ordered solid particles -->
+
+    <g fill="#2563eb" stroke="#1e3a5f" stroke-width="2">
+
+        <circle cx="185" cy="300" r="22"/>
+        <circle cx="235" cy="300" r="22"/>
+        <circle cx="285" cy="300" r="22"/>
+        <circle cx="335" cy="300" r="22"/>
+
+        <circle cx="185" cy="350" r="22"/>
+        <circle cx="235" cy="350" r="22"/>
+        <circle cx="285" cy="350" r="22"/>
+        <circle cx="335" cy="350" r="22"/>
+
+    </g>
+
+    <!-- Dispersed gas particles -->
+
+    <g fill="#dc2626" stroke="#991b1b" stroke-width="2">
+
+        <circle cx="625" cy="190" r="22"/>
+        <circle cx="735" cy="175" r="22"/>
+        <circle cx="850" cy="215" r="22"/>
+        <circle cx="675" cy="270" r="22"/>
+
+        <circle cx="815" cy="295" r="22"/>
+        <circle cx="610" cy="350" r="22"/>
+        <circle cx="730" cy="365" r="22"/>
+        <circle cx="870" cy="355" r="22"/>
+
+    </g>
+
+    <!-- Motion indicators -->
+
+    <g
+        stroke="#dc2626"
+        stroke-width="3"
+        stroke-linecap="round"
+    >
+        <line x1="625" y1="160" x2="645" y2="145"/>
+        <line x1="735" y1="205" x2="750" y2="225"/>
+        <line x1="850" y1="185" x2="875" y2="170"/>
+        <line x1="675" y1="240" x2="655" y2="220"/>
+        <line x1="815" y1="325" x2="800" y2="345"/>
+        <line x1="610" y1="320" x2="590" y2="305"/>
+        <line x1="730" y1="335" x2="750" y2="315"/>
+        <line x1="870" y1="325" x2="890" y2="305"/>
+    </g>
+
+    <!-- Captions -->
+
+    <text
+        x="257"
+        y="435"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        font-weight="bold"
+        fill="#4b5563"
+    >
+        Ordered solid arrangement
+    </text>
+
+    <text
+        x="257"
+        y="463"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        fill="#4b5563"
+    >
+        Fewer accessible arrangements
+    </text>
+
+    <text
+        x="742"
+        y="435"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        font-weight="bold"
+        fill="#4b5563"
+    >
+        Dispersed gas arrangement
+    </text>
+
+    <text
+        x="742"
+        y="463"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        fill="#4b5563"
+    >
+        More accessible arrangements
+    </text>
+
+</svg>

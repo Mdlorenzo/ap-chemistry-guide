@@ -2019,10 +2019,497 @@
     <h2>Titrations and Indicators</h2>
 
     <p>
-        This lesson will examine strong and weak acid–base titrations,
-        equivalence points, titration curves, buffer regions, and
-        indicator selection.
+        An acid–base titration uses a solution with a known
+        concentration to determine the amount or concentration of an
+        acid or base in another solution.
     </p>
+
+
+    <h3>Important Titration Terms</h3>
+
+    <div class="table-container">
+
+        <table class="particle-table">
+
+            <thead>
+                <tr>
+                    <th>Term</th>
+                    <th>Meaning</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Titrant</td>
+                    <td>
+                        The solution of known concentration that is
+                        gradually added
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Analyte</td>
+                    <td>
+                        The solution whose concentration or amount is
+                        being determined
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Equivalence point</td>
+                    <td>
+                        The point at which stoichiometrically equivalent
+                        amounts of acid and base have reacted
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Endpoint</td>
+                    <td>
+                        The observed indicator color change used to
+                        estimate the equivalence point
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div class="key-concept">
+        The equivalence point is determined by reaction stoichiometry.
+        The endpoint is an experimental observation. A suitable
+        indicator makes the endpoint occur close to the equivalence
+        point.
+    </div>
+
+
+    <h3>Titration Stoichiometry</h3>
+
+    <p>
+        Before calculating pH, first determine the number of moles of
+        acid and base that react.
+    </p>
+
+    <div class="equation">
+        Moles = Molarity × Volume in liters
+    </div>
+
+    <p>
+        Use the balanced neutralization equation to compare the acid
+        and base amounts.
+    </p>
+
+
+    <div class="example">
+
+        <h4>Example: Finding an Unknown Concentration</h4>
+
+        <p>
+            A 25.00 mL HCl sample is neutralized by 20.00 mL of
+            0.1500 M NaOH. Calculate the HCl concentration.
+        </p>
+
+        <div class="equation">
+            HCl + NaOH → NaCl + H<sub>2</sub>O
+        </div>
+
+        <p>Calculate the moles of NaOH:</p>
+
+        <div class="equation">
+            n<sub>NaOH</sub>
+            = (0.1500 mol/L)(0.02000 L)
+            = 0.003000 mol
+        </div>
+
+        <p>
+            HCl and NaOH react in a one-to-one ratio, so the sample
+            contains 0.003000 mol HCl.
+        </p>
+
+        <div class="equation">
+            M<sub>HCl</sub> =
+
+            <span class="fraction">
+                <span class="numerator">
+                    0.003000 mol
+                </span>
+                <span class="denominator">
+                    0.02500 L
+                </span>
+            </span>
+        </div>
+
+        <div class="equation">
+            M<sub>HCl</sub> = 0.1200 M
+        </div>
+
+    </div>
+
+
+    <h3>Titration Curves</h3>
+
+    <p>
+        A titration curve displays pH on the vertical axis and volume
+        of titrant added on the horizontal axis.
+    </p>
+
+    <figure class="chemistry-figure">
+
+        <img
+            src="../images/titration-curves.svg"
+            alt="Strong acid strong base and weak acid strong base titration curves with important regions labeled"
+        >
+
+        <figcaption>
+            A strong acid–strong base titration has an equivalence point
+            near pH 7 at 25°C. A weak acid–strong base titration has a
+            buffer region, a half-equivalence point, and an equivalence
+            point above pH 7.
+        </figcaption>
+
+    </figure>
+
+
+    <h3>Strong Acid–Strong Base Titration</h3>
+
+    <p>
+        Consider a strong acid being titrated with a strong base.
+        Both substances ionize essentially completely.
+    </p>
+
+    <div class="equation">
+        H<sub>3</sub>O<sup>+</sup> + OH<sup>−</sup>
+        → 2H<sub>2</sub>O
+    </div>
+
+    <div class="table-container">
+
+        <table class="particle-table">
+
+            <thead>
+                <tr>
+                    <th>Region</th>
+                    <th>How pH Is Determined</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Before titrant is added</td>
+                    <td>Initial strong-acid concentration</td>
+                </tr>
+
+                <tr>
+                    <td>Before equivalence</td>
+                    <td>Excess moles of strong acid</td>
+                </tr>
+
+                <tr>
+                    <td>At equivalence</td>
+                    <td>Approximately pH 7 at 25°C</td>
+                </tr>
+
+                <tr>
+                    <td>After equivalence</td>
+                    <td>Excess moles of strong base</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div class="key-concept">
+        The pH at the equivalence point is 7 only for a strong
+        acid–strong base titration at 25°C. Not every equivalence point
+        occurs at pH 7.
+    </div>
+
+
+    <h3>Calculating pH Before Equivalence</h3>
+
+    <div class="example">
+
+        <h4>Example: Excess Strong Acid</h4>
+
+        <p>
+            A 25.0 mL sample of 0.100 M HCl is titrated with 15.0 mL
+            of 0.100 M NaOH. Calculate the pH.
+        </p>
+
+        <p>Calculate the initial moles of HCl:</p>
+
+        <div class="equation">
+            n<sub>HCl</sub>
+            = (0.100 M)(0.0250 L)
+            = 0.00250 mol
+        </div>
+
+        <p>Calculate the moles of NaOH added:</p>
+
+        <div class="equation">
+            n<sub>NaOH</sub>
+            = (0.100 M)(0.0150 L)
+            = 0.00150 mol
+        </div>
+
+        <p>Determine the excess HCl:</p>
+
+        <div class="equation">
+            0.00250 − 0.00150
+            = 0.00100 mol HCl
+        </div>
+
+        <p>
+            Divide by the total solution volume:
+        </p>
+
+        <div class="equation">
+            [H<sub>3</sub>O<sup>+</sup>] =
+
+            <span class="fraction">
+                <span class="numerator">
+                    0.00100 mol
+                </span>
+                <span class="denominator">
+                    0.0400 L
+                </span>
+            </span>
+
+            = 0.0250 M
+        </div>
+
+        <div class="equation">
+            pH = −log(0.0250) = 1.60
+        </div>
+
+    </div>
+
+
+    <h3>Weak Acid–Strong Base Titration</h3>
+
+    <p>
+        A weak acid–strong base titration contains several chemically
+        different regions.
+    </p>
+
+    <div class="table-container">
+
+        <table class="particle-table">
+
+            <thead>
+                <tr>
+                    <th>Region</th>
+                    <th>Major Species or Calculation</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Initial solution</td>
+                    <td>Weak-acid equilibrium using K<sub>a</sub></td>
+                </tr>
+
+                <tr>
+                    <td>Before equivalence</td>
+                    <td>Buffer containing HA and A<sup>−</sup></td>
+                </tr>
+
+                <tr>
+                    <td>Half-equivalence point</td>
+                    <td>[HA] = [A<sup>−</sup>] and pH = pK<sub>a</sub></td>
+                </tr>
+
+                <tr>
+                    <td>Equivalence point</td>
+                    <td>Conjugate base hydrolysis; pH greater than 7</td>
+                </tr>
+
+                <tr>
+                    <td>After equivalence</td>
+                    <td>Excess strong base determines pH</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <h3>The Half-Equivalence Point</h3>
+
+    <p>
+        At the half-equivalence point, exactly half of the original
+        weak acid has been converted into its conjugate base.
+    </p>
+
+    <div class="equation">
+        [HA] = [A<sup>−</sup>]
+    </div>
+
+    <div class="equation">
+        pH = pK<sub>a</sub>
+    </div>
+
+    <p>
+        This point can be used to determine K<sub>a</sub> from an
+        experimental titration curve.
+    </p>
+
+
+    <div class="example">
+
+        <h4>Example: Finding K<sub>a</sub> from a Curve</h4>
+
+        <p>
+            A weak acid reaches its equivalence point after 30.0 mL
+            of strong base has been added. The pH after 15.0 mL has
+            been added is 4.60.
+        </p>
+
+        <p>
+            Because 15.0 mL is half of the equivalence-point volume,
+            this is the half-equivalence point.
+        </p>
+
+        <div class="equation">
+            pK<sub>a</sub> = 4.60
+        </div>
+
+        <div class="equation">
+            K<sub>a</sub> = 10<sup>−4.60</sup>
+        </div>
+
+        <div class="equation">
+            K<sub>a</sub> = 2.5 × 10<sup>−5</sup>
+        </div>
+
+    </div>
+
+
+    <h3>Why the Weak-Acid Equivalence Point Is Basic</h3>
+
+    <p>
+        At equivalence, the weak acid has been converted into its
+        conjugate base. That conjugate base reacts with water to
+        produce OH<sup>−</sup>.
+    </p>
+
+    <div class="equation">
+        A<sup>−</sup> + H<sub>2</sub>O
+        ⇌ HA + OH<sup>−</sup>
+    </div>
+
+    <p>
+        Therefore, the equivalence-point pH is greater than 7 for a
+        weak acid titrated with a strong base.
+    </p>
+
+
+    <h3>Strong Acid–Weak Base Titrations</h3>
+
+    <p>
+        If a weak base is titrated with a strong acid, the equivalence
+        solution contains the weak base’s conjugate acid.
+    </p>
+
+    <div class="equation">
+        BH<sup>+</sup> + H<sub>2</sub>O
+        ⇌ B + H<sub>3</sub>O<sup>+</sup>
+    </div>
+
+    <p>
+        The conjugate acid produces hydronium, so the equivalence-point
+        pH is less than 7.
+    </p>
+
+
+    <h3>Comparing Equivalence Points</h3>
+
+    <div class="table-container">
+
+        <table class="particle-table">
+
+            <thead>
+                <tr>
+                    <th>Titration</th>
+                    <th>Equivalence-Point pH at 25°C</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Strong acid with strong base</td>
+                    <td>Approximately 7</td>
+                </tr>
+
+                <tr>
+                    <td>Weak acid with strong base</td>
+                    <td>Greater than 7</td>
+                </tr>
+
+                <tr>
+                    <td>Weak base with strong acid</td>
+                    <td>Less than 7</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <h3>Acid–Base Indicators</h3>
+
+    <p>
+        An acid–base indicator is a weak acid or weak base whose two
+        forms have different colors.
+    </p>
+
+    <div class="equation">
+        HIn ⇌ H<sup>+</sup> + In<sup>−</sup>
+    </div>
+
+    <p>
+        The color transition occurs over a range of pH values near the
+        indicator’s pK<sub>a</sub>.
+    </p>
+
+    <div class="key-concept">
+        Choose an indicator whose color-change range lies within the
+        steep vertical region of the titration curve.
+    </div>
+
+    <p>
+        An indicator does not need to change color exactly at pH 7.
+        Its useful range must instead overlap the rapid pH change near
+        the equivalence point.
+    </p>
+
+
+    <h3>Common Titration Strategy</h3>
+
+    <div class="key-concept">
+        1. Calculate moles of acid and base
+        <br><br>
+
+        2. Complete the neutralization reaction
+        <br><br>
+
+        3. Identify which titration region applies
+        <br><br>
+
+        4. Use the correct remaining species to calculate pH
+    </div>
 
 </section>
       
